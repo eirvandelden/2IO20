@@ -1,0 +1,113 @@
+%
+%  Created by Nick van der Veeken on 2006-12-13.
+%
+\documentclass[]{article}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for full page use
+\usepackage{fullpage}
+
+% Uncomment some of the following if you use the features
+%
+% Running Headers and footers
+%\usepackage{fancyheadings}
+
+% Multipart figures
+%\usepackage{subfigure}
+
+% More symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{latexsym}
+
+% Surround parts of graphics with box
+\usepackage{boxedminipage}
+
+% Package for including code in the document
+\usepackage{listings}
+
+% If you want to generate a toc for each chapter (use with book)
+\usepackage{minitoc}
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+%\newif\ifpdf
+%\ifx\pdfoutput\undefined
+%\pdffalse % we are not running PDFLaTeX
+%\else
+%\pdfoutput=1 % we are running PDFLaTeX
+%\pdftrue
+%\fi
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+\title{Notulen Studentenoverleg}
+\author{Etienne van Delden\\ }
+
+\date{14-02-2007}
+
+\begin{document}
+
+\maketitle
+
+\section{Opening}
+  \begin{itemize}
+    \item Opening: 13:03 uur
+	  \item Voorzitter: N. Sidorova
+	  \item Notulist: Etienne van Delden
+  \end{itemize}
+
+\section{Mededelingen voorzitter}
+
+  \begin{itemize}
+    \item Demonstratie scenario gegevens moeten van te voren in de database zitten
+   
+    \item Maak een kopie van de database van te voren aan, waarin je werkt, zodat de in te vullen persoon er niet al in staat
+    \item Niet alles scenario's worden tijdens de demo gedaan
+    \item Er is een rooster met data beschikbaar op de website voor zowel de demonstraties als presentaties. De locaties zullen zsm. worden toegevoegd.
+    \item Bij de demonstratie moet je er vijf minuten van te voren zijn en moet je klaar staan
+    \item Bij de demonstraties:
+
+ 	\begin{itemize}
+ 		\item Ofwel voor iedere scenario \'e\'en verantwoordelijke
+ 		\item Ofwel \'e\'en iemand die het hele systeem kent en de scenario's kan toepassen
+ 		\item \'E\'en iemand achter de computer samen met \'e\'en iemand die de informatie heeft voor deze scenario. Je moet weten wat er exact moet worden ingevuld. Laat zien dat het werkt. Meld van te voren welke scenario's er niet uitgevoerd kunnen worden.
+ 	\end{itemize}
+
+ 	\item Graphical User Interface! Verbeterde versie van prototype is door bijna niemand ingeleverd. Tip: lever deze week nog de database in bij de expert voor opmerkingen over de GUI.
+ 	\item 15 Maart is de presentatie, in Paviljoen M.25. Alle presentaties zijn van 12.45 tot 17.00. Je hoeft alleen aanwezig te zijn bij de presentaties van je eigen instructie groep.
+ 	\item De presentatie is klant- of collega-gericht.
+ 	\item Elke groep \underline{moet} vragen stellen aan de mensen die de presentatie geven. Maak desnoods vragen van te voren.
+ 	\item De presentatie wordt gegeven door \'e\'en persoon, maximaal drie 
+ 	\item Voor het verslag moet je de projectwijzer niet al te letterlijk nemen
+ 	\item Het verslag moet 9 \'a 10 pagina's worden
+ 	\item Design decisions moeten in het verslag staan
+ 	\item Terugblik ( hoe ging het met de probleem )
+ 	\item Conclusie ( wat heb je geleerd en dan niet programmeer ervaring )
+ 	\item Logboeken moeten via studyweb te bereiken zijn
+ 	\item OGO ruimten worden aangepast
+
+  \end{itemize}
+
+\section{Mededelingen leden}
+
+  \begin{itemize}
+    \item Groepen 1a, 1b, 1c hebben gezamenlijk opmerkingen gegeven over zowel de access training als de visio training, deze zijn door mevrouw Sidorova genoteerd om in volgende jaren te verwerken
+  \end{itemize}
+
+
+\section{Sluiting}
+
+  \begin{itemize}
+    \item De vergadering wordt om 13:40 gesloten. Dit was de laatste studenten overleg
+  \end{itemize}
+
+$\boxtimes$
+
+\end{document}

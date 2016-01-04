@@ -1,0 +1,35 @@
+\documentclass[10pt,a4paper]{article}
+\author{jurjen}
+\title{notulen 1 maart}
+\begin{document}
+\maketitle
+\section {Notulen vergadering}
+\begin{itemize}
+   \item We mogen andere ogo-groepen eruit schoppen als ze in 10.63 zitten.
+   \item goedkeuring agenda
+   \item notulen vorige keer goed
+   \item vergadering volgende keer is om half drie ivm. de demonstraties om kwart voor 2
+   \item 16 feb. ingeleverd was ok, niet als cc mails sturen
+   \item logboeken bijwerken!
+   \item handleiding moet af
+   \item vorm van de proefversie van het verslag is belangrijk, maar (zelfs een beetje) inhoud iets meer! (voor betere feedback)
+   \item interface van de database
+   \item handleiding: met een uurtje eraan werken (want moet vrijdag af!), het formulier voor magazijn is bijna af! screenshot maken + beetje uitleg
+   \item database: bijna af.
+   \item usecases: data verzamelen om in te voeren
+   \item presentatie: moeten mensen volgende week aan beginnen (etienne en giso)
+\end{itemize}
+
+\section{Samenvatting}
+\begin{itemize}
+   \item we moeten de database afmaken
+   \item giso en sander : projectverslag
+   \item volgende week: presentatie
+   \item deze week: handleiding
+\end{itemize}
+
+\section{Sluiting}
+\begin{itemize}
+   \item volgende week dus vergadering om half drie
+\end{itemize}
+\end{document}

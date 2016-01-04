@@ -1,0 +1,68 @@
+
+%  untitled
+%
+%  Created by Sander on 21 december 2006.
+%
+\documentclass[]{article}
+
+\begin{document}
+\title{Agenda}
+\author{ Sander Leemans\\ }
+
+\date{8 maart 2007}
+
+\maketitle
+
+
+\section{Opening vergadering: 14:30}
+  \begin{itemize}
+      \item Voorzitter: Sander
+      \item Notulist: Etienne
+      \item Aanwezigheid leden
+      \item Vaststelling agenda
+  \end{itemize}
+
+\section{Bespreken notulen vorige vergadering}
+
+\section{Mededelingen}
+    \begin{itemize}
+    \item Binnengekomen stukken
+    \item Voorzitter
+    \item Tutor
+    \item Overige leden
+    \end{itemize}
+
+\section{Voortgangsbewaking}
+  Bespreken van de ingeleverde, nagekeken en nog in te leveren werken, zonder al te veel op de
+  inhoud ervan in te gaan.
+  \begin{itemize}
+    \item Gebruikershandleiding
+    \item Vragen voor presentaties van andere groepen
+    \item (onze) presentatie
+    \item Applicatiesoftware op cdrom
+    \item Takenlijst
+    \item Projectverslag-procesdeel
+    \item Projectverslag-productdeel
+  \end{itemize}
+
+\section{Planning}
+  \begin{itemize}
+    \item Planning voor volgende week
+    \item Gegevens over presentatie doorlopen
+  \end{itemize}
+
+\section{Evaluatie}
+  \begin{itemize}
+    \item Demonstratie
+    \item Naamgevingsstandaard
+    \item "Tegen gebrek aan kruit is geen nauwgezetheid gewassen"
+    \item Doorlopen van gemaakte afspraken
+  \end{itemize}
+
+\section{Sluiting}
+    \begin{itemize}
+    \item Datum en tijd volgende vergadering
+    \end{itemize}
+\end{document}
+
+\enc{document}

@@ -1,0 +1,36 @@
+%titelblad
+
+\ifx\pdfoutput\undefined % We're not running pdftex
+\else
+\pdfbookmark{Titelblad}{title} \fi
+\newlength{\centeroffset}
+\setlength{\centeroffset}{-0.5\oddsidemargin}
+\addtolength{\centeroffset}{0.5\evensidemargin}
+%\addtolength{\textwidth}{-\centeroffset}
+\thispagestyle{empty} \vspace*{\stretch{1}}
+\noindent\hspace*{\centeroffset}\makebox[0pt][l]{\begin{minipage}{\textwidth}
+\flushright {\Huge\bfseries Van Model tot Systeem\\ }
+\noindent\rule[-1ex]{\textwidth}{5pt}\\[2.5ex]
+\hfill\emph{\Large OGO 1.2: Groep 2}
+\end{minipage}}
+
+\vspace{\stretch{1}}
+\noindent\hspace*{\centeroffset}\makebox[0pt][l]{\begin{minipage}{\textwidth}
+\flushright
+{\bfseries
+door
+     Dal G.H. (Giso)\\
+     Delden E.I.R. van (Etienne)\\
+     Heijnsbergen X.R.V. van (Xander)\\
+     Leemans S.J.J. (Sander)\\
+     Middendorp J.R. (Jurjen)\\
+     Veeken N. van der (Nick)\\[3ex]}
+8 December, 2006
+\end{minipage}}
+
+%\addtolength{\textwidth}{\centeroffset}
+\vspace{\stretch{2}}
+
+
+
+\endinput

@@ -1,0 +1,135 @@
+%
+%  untitled
+%
+%  Created by <name> on <date>.
+%
+\documentclass[]{article}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for fullpage use
+\usepackage{fullpage}
+
+% Uncomment some of the following if you use the features
+%
+% Running Headers and footers
+%\usepackage{fancyheadings}
+
+% Multipart figures
+%\usepackage{subfigure}
+
+% More symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{latexsym}
+
+% Surround parts of graphics with box
+\usepackage{boxedminipage}
+
+% Package for including code in the document
+\usepackage{listings}
+
+% If you want to generate a toc for each chapter (use with book)
+\usepackage{minitoc}
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+%\newif\ifpdf
+%\ifx\pdfoutput\undefined
+%\pdffalse % we are not running PDFLaTeX
+%\else
+%\pdfoutput=1 % we are running PDFLaTeX
+%\pdftrue
+%\fi
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+\title{Agenda - OGO 1.2, groep 2}
+\author{ Etienne van Delden \\ }
+
+\date{14-02-2007}
+
+\begin{document}
+
+\ifpdf
+\DeclareGraphicsExtensions{.pdf, .jpg, .tif}
+\else
+\DeclareGraphicsExtensions{.eps, .jpg}
+\fi
+
+\maketitle
+
+
+\section{Opening vergadering: 14.30 uur }
+  \begin{itemize}
+    \item Voorzitter: Etienne van Delden
+    \item Notulist: Sander Leemans
+    \item Aanwezigheid leden
+		\begin{itemize}
+			\item Giso heeft zich ziek gemeld
+		\end{itemize}
+  \end{itemize}
+
+\section{Vaststelling van de agenda}
+
+\section{Bespreken van notulen vorige vergadering}
+
+\section{Mededelingen Voorzitter}
+
+  \begin{itemize}
+     \item Uitkomst studenten overleg:
+		\begin{itemize}
+			\item Demo en presentatie data staan op de OGO1.2 website
+			\item Demonstratie scenario gegevens horen van te voren in de database ziten
+			\item Het is handig 2 versies van het database bij te houden
+			\item Niet alle scenario's komen tijdens
+			\item Voor iedere scenario een verantwoordelijke of 1 iemand die het systeem en de scenario's kent
+			\item Grafische User Interface is erg belangrijk. Deze week nog aan de expert laten zien.
+			\item Eind presentatie is op 15 maart in Paviljoen. Het is van 12.45 tot $\pm$ 14.00
+			\item Er komt een korte notulen over de studenten overleg op SVN 
+		\end{itemize}
+	\item Gebruikershandleiding
+	\item SVN
+  \end{itemize}
+
+
+\section{Mededelingen tutor}
+
+\section{Mededelingen leden}
+
+\section{Opdracht bespreking}
+
+  \begin{itemize}
+    \item Wat moet er nog gebeuren?
+    \item Hoe staat het met de database? Wat gaat er nog gebeuren met de interface? Kan het de demo-scenario's aan?
+    \item Hebben we users in de database
+    \item Bespreking van de vergaderingen en de gevolgen hiervan: status-update
+  \end{itemize}
+
+\section{Verslaglegging}
+
+  \begin{itemize}
+    \item Bespreken inhoud van de verslagen. Hoe staat het hiermee
+  \end{itemize}
+
+\section{Planning}
+  \begin{itemize}
+    \item Planning voor volgende week
+    \item Huidige planning aanpassen?
+  \end{itemize}
+
+\section{Evaluatie}
+  \begin{itemize}
+    \item Doorlopen van gemaakte afspraken
+  \end{itemize}
+
+\section{Sluiting}
+
+$\boxtimes$
+
+\end{document}

@@ -1,0 +1,137 @@
+%
+%  Created by Xander van Heijnsbergen on 21-12-2006.
+%
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fullpage}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{boxedminipage}
+\usepackage{listings}
+\usepackage{minitoc}
+\usepackage{ifpdf}
+
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage{graphicx}
+\fi
+
+\title{Notulen OGO1.2 groep 2}
+\author{ Xander van Heijnsbergen \\ }
+\date{21-12-2006}
+\begin{document}
+
+  \ifpdf
+    \DeclareGraphicsExtensions{.pdf, .jpg, .tif}
+  \else
+    \DeclareGraphicsExtensions{.eps, .jpg}
+  \fi
+
+  \maketitle
+
+  \section{Opening vergadering}
+    Om 14:40 uur wordt de vergadering door \textbf{Sander} geopend. Alle groepsleden en de tutor zijn aanwezig, daarnaast is in het kader van de vergadertraining \textbf{Judy} nog aanwezig om onze vergadering te evalueren.
+
+    \subsection{Vaststelling agenda}
+      Er worden nog enkele opmerkingen gemaakt met betrekking tot de agenda:
+
+      \begin{itemize}
+        \item Het is de \textbf{tutor} even onduidelijk of het kopje \textit{6. Evaluatie} enkel slaat op de gemaakte afspraken tijdens deze vergadering, of op alle tot nu toe gemaakte afspraken.
+        \item \textbf{Nick} wil graag twee onderdelen toegevoegd hebben bij \textit{5. Planning}:
+          \begin{itemize}
+            \item Ontwerpbeslissingen
+            \item Voorbereidend werk implementatie
+          \end{itemize}
+
+        \item \textbf{Tutor:} \textit{Verbeterd werkplan} zou beter bij \textit{5. Planning} passen dan bij \textit{4. Voortgangsbewaking}.
+      \end{itemize}
+
+  \section{Bespreken notulen vorige vergadering}
+    De \textbf{tutor} heeft \'e\'en opmerking op de notulen van 14 december: Het groepsnummer ontbrak. Daarnaast heeft de tutor nog een opmerking op de notulen van het studentenoverleg op 13 december. Deze opmerking is te vinden op studyweb, in de proces map.
+
+  \section{Mededelingen}
+
+    \subsection{Tutor}
+      De vertegenwoordiger van groep 3 beweerde dat bij het studentenoverleg ter sprake was gekomen dat de formulieren voor het prototype GUI beschreven mochten worden.\\
+      \textbf{Sander} merkt op dat dhr. Voorhoeve ook al had aangegeven dat het nog niet volledig uitgewerkt hoefde te worden. Het was wel de bedoeling om iets visueels in te leveren.
+
+    \subsection{Voorzitter}
+      OGO begint op donderdag om 13:30, dus niet om 14:00. Aan de groepsleden het verzoek om ook op tijd aanwezig te zijn of op zijn minst even iets te laten weten als dit niet lukt.\\
+      Dit verzoek wordt in het speciaal aan \textbf{Jurjen} gericht, aangezien deze vandaag te laat aanwezig was. Jurjen geeft aan dat hij hier weinig aan kon doen, hij zat al in de bus en heeft geen mobiele telefoon; hij kon dus even niets van zich laten horen.
+
+  \section{Voortgangsbewaking}
+
+    \subsection{ER-model}
+      \textbf{Etienne}, hoofdverantwoordelijke voor het voorlopig ER-model, vertelt dat we gisteren na een gesprek met dhr. Voorhoeve nog een aantal aanpassingen hebben gemaakt. Volgens de \textbf{tutor} is het toch handig om voor inleveren nog even langs dhr. Voorhoeve te lopen, maar dit is niet noodzakelijk volgens Etienne aangezien er totaal geen kritische opmerkingen meer waren. Volgens dhr. Voorhoeve zag alles er goed uit.
+      \textbf{Xander}, hoofdverantwoordelijke voor de definitieve versie van het ER-model, geeft aan dat er ook voor het afkrijgen van de definitieve versie van het ER-model geen problemen meer zijn. Het voorlopige ER-model was immers al volledig, het enige dat nog gedaan moet worden is wat documentatie en dhr. Voorhoeve heeft al aangegeven dat dit enkel een kleine toelichting moet zijn op wat er in het model te zien is.
+
+    \subsection{Werkplan}
+      \textbf{Nick}, hoofdverantwoordelijke voor het werkplan, maakt nog enkele opmerkingen over het werkplan. Er zijn nu wel allemaal zachte deadlines gesteld op woensdag in plaats van de hardere deadlines op vrijdag, maar misschien is het toch handig om een aantal zaken nog verder naar voren te schuiven. De implementatie kost meer tijd dan andere onderdelen, deze is niet volledig te doen in \'e\'en week tijd. De planning moet wat rationeler gemaakt worden.
+
+    \subsection{Prototype GUI}
+      \textbf{Sander}, hoofdverantwoordelijke voor het prototype GUI, ziet geen problemen bij het halen van de deadline morgen. Het is ondertussen duidelijk wat er van hem verwacht wordt.
+
+    \subsection{Takenlijst}
+      \textbf{Sander} vraagt of de takenlijst nu wel in orde is. Dit is echter geen vraag voor de \textbf{tutor}, maar voor dhr. Voorhoeve. Volgens \textbf{Nick} is de takenlijst in ieder geval wel in orde ondertussen.
+
+  \section{Planning}
+
+    \subsection{Voorbereidend werk implementatie}
+      \textbf{Nick} wil duidelijk krijgen hoeveel tijd er nodig is voor de verschillende onderdelen op het werkplan. De \textbf{tutor} begint een verhaal over hoe het groepen vorig jaar afging met het afkrijgen van de \textit{"Gevulde database met werkende formulieren en rapporten"}. Zij hadden ruim 3 weken nodig hiervoor. Om de deadline te halen moeten we
+
+      \begin{itemize}
+        \item de tentamenweek gebruiken om nog iets aan OGO te doen.\\\\
+        \'of
+        \item in de kerstvakantie nog wat werk doen.\\\\
+        \'of
+        \item in het vervolg wat meer uren per week besteden aan OGO. Er staat 8 uur voor ingeroosterd en uit onze logboeken blijkt dat we nu ongeveer 4 tot 5 uur per persoon per week werken.\\
+      \end{itemize}
+
+      \noindent Vorig jaar was er een groep die dit niet goed ingepland had. Deze groep zat met niet-werkende formulieren tijdens hun demonstratie.\\\\
+      \noindent \textbf{Sander} heeft genoeg gehoord om er van overtuigd te raken dat de \textit{"Gevulde database met werkende formulieren en rapporten"} tijd kost. Hij onderbreekt de tutor en komt met het voorstel dat alle hoofdverantwoordelijken uitzoeken hoeveel tijd hun onderdeel kost en dit aan \textbf{Nick} laten weten zodat hier rekening mee gehouden kan worden. Dit voorstel wordt aangenomen en er wordt afgesproken dat iedereen dit voor woensdag 27 december uitzoekt.
+
+    \subsection{Ontwerpbeslissingen}
+      \textbf{Nick} wil duidelijk krijgen wat er precies moet gebeuren met de ontwerpbeslissingen. Hoort dit bij het product- of bij het procesdeel van de opdracht? De \textbf{tutor} geeft aan dat de ontwerpbeslissingen in het productdocument moeten komen, maar dat ze wel besproken mogen worden tijdens de vergaderingen als onderdeel van het proces.\\
+      De ontwerpbeslissingen van het ER-model zijn ook nog niet vastgelegd. \textbf{Nick} en \textbf{Giso} bieden beiden aan om dit te doen en er wordt besloten dat Giso, als hoofdverantwoordelijke van het productdocument, ook de ontwerpbeslissingen bijhoudt.\\
+      De \textbf{tutor} merkt op dat het het handigste is als iedereen zelf zijn eigen ontwerpbeslissingen van nu af aan logt.
+
+    \subsection{Afgevaardigden voor studentenoverleg}
+      \textbf{Nick} is als afgevaardigde naar het eerste studentenoverleg gegaan. Voor het studentenoverleg op 10 januari en 14 februari moeten nog mensen worden aangewezen. \textbf{Sander} vraagt of \textbf{Jurjen} dit op 10 januari wil doen en \textbf{Etienne} meldt zich vrijwillig voor 14 februari.
+
+    \subsection{Presentatie}
+      We hadden nog geen hoofdverantwoordelijek voor de presentatie. \textbf{Etienne} wil ook deze taak op zich nemen.
+
+  \section{Evaluatie}
+    Bij het doorlopen van de gemaakte afspraken werd door de \textbf{tutor} opgemerkt dat we ons niet aan onze eigen afspraken met betrekking tot de logboeken houden. We hadden afgesproken om iedere dinsdag voor 23:59 ons logboek bijgewerkt te hebben tot de donderdag ervoor. Alleen \textbf{Nick} en \textbf{Giso} hadden zich hier aan gehouden, de rest had slechts gelogd tot 13 december. \textbf{Sander} liep nog verder achter, zijn log was bijgewerkt tot 7 december.\\
+    \textbf{Nick} legt nog eens uit dat het in principe de bedoeling is om gewoon aan het eind van de week (bijvoorbeeld in het weekend) het logboek bij te werken. Als iedereen dit doet is het ook zeker voor dinsdagavond bijgewerkt.\\
+    \textbf{Etienne} heeft zijn logboek niet kunnen bijwerken omdat hij nog steeds een probleem heeft met excel documenten en SVN. Het is niet duidelijk waardoor dit probleem veroorzaakt wordt.\\
+    De \textbf{tutor} heeft ook nog een probleem met SVN, hij kan niet op webSVN komen met FireFox onder linux. Anderen kunnen dit echter wel en het is gewoon een standaard wachtwoordprompt, dus dit probleem lijkt bij de tutor zelf te liggen.
+
+  \section{Sluiting}
+    Om 15:04 wordt de vergadering door \textbf{Sander} gesloten. Met een vergadering van 24 minuten hebben we ons aardig aan het maximum van 20 minuten gehouden.\\
+    De volgende vergadering vindt plaats op 11 januari, voorlopig is de locatie hiervoor HG8.58.\\\\
+
+    \noindent Na de vergadering wordt door de \textbf{tutor} nog een belangrijke opmerking gemaakt: Hij wil op 8 januari ons vernieuwde werkplan in zijn postvakje hebben.
+
+  \section*{Evaluatie}
+    Deze vergadering vond plaats tijdens een vergadertraining en werd daarom achteraf ge\"evalueerd. Over het algemeen gaf onze vergadering een goede indruk. We hebben de beoogde effici\"entie gehaald, we waren een stuk sneller dan bij onze vorige vergaderingen. \textbf{Sander} vond het zelfs te snel gaan, hierdoor kreeg hij als voorzitter niet de kans om iedereen evenveel aan het woord te laten. De nadruk lag grotendeels op \textbf{Nick}, \textbf{Sander} en \textbf{Etienne}. Dit kwam wel grotendeels doordat zij deze week toevallig het meeste te doen hadden en dus ook het meeste te vertellen hadden. We kregen nog een aantal met opmerkingen van \textbf{Judy}:
+
+    \begin{itemize}
+      \item[-] De agenda bevatte geen tijdsplanning. De volgende keer moeten we op zijn minst even aangeven in welke onderdelen het meeste tijd gaat zitten.
+      \item[+] De agendapunten werden goed ingeleid door \textbf{Sander}.
+      \item[-] Aan het einde van een agendapunt werd geen samenvatting gegeven van wat er besproken was.
+      \item[-] \textbf{Jurjen}'s houding tijdens de vergadering geeft de indruk dat hij niet betrokken is.
+    \end{itemize}
+
+    \noindent Nog enkele andere opmerkingen achteraf:
+
+    \begin{itemize}
+      \item \textbf{Nick} en \textbf{Etienne} hadden zich als doel gesteld om anderen meer aan het woord te laten. Ze waren nog steeds veel aan het woord, maar dat was grotendeels noodzakelijk. Volgens \textbf{Judy} hebben ze dat doel in ieder geval wel gehaald.
+      \item \textbf{Sander} had zichzelf als doel gesteld om de \textbf{tutor} af te breken als hij te veel tijd besteedde om iets relatief simpels uit te leggen. Iets dat ook moeilijk anders kan met een strakke tijdsplanning zoals we die hadden. Dit afbreken werd volgens \textbf{Judy} netjes en om de goede reden gedaan.
+      \item \textbf{Nick} vond de vergadering heel nuttig, mede omdat hij zich van te voren had voorbereid en twee extra punten had ingebracht. Als hij dit niet had gedaan hadden we tijdens de vergadering twee vrij essenti\"ele dingen gemist. Nick zou het daarom fijn vinden als anderen zich op dezelfde manier voorbereidden.
+    \end{itemize}
+
+  $\boxtimes$
+
+  \end{document}

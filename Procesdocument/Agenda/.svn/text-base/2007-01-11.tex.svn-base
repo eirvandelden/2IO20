@@ -1,0 +1,67 @@
+%
+%  untitled
+%
+%  Created by <name> on <date>.
+%
+\documentclass[]{article}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for fullpage use
+\usepackage{fullpage}
+
+\title{Agenda - OGO 1.2, groep 2}
+\author{Jurjen}
+
+\date{2007-1-11}
+
+\begin{document}
+\maketitle
+
+
+\section{Opening vergadering: }
+  \begin{itemize}
+    \item Voorzitter: Jurjen
+    \item Notulist: Etienne
+    \item Aanwezigheid leden
+  \end{itemize}
+
+\section{Goedkeuring agenda}
+
+\section{Bespreken van notulen vorige vergadering}
+
+\section{Mededelingen Voorzitter}
+
+\section{Mededelingen tutor}
+
+\section{Mededelingen leden}
+
+\section{Opdracht bespreking}
+
+   \begin{itemize}
+      \item Hoe gaat het met het globaal datamodel?
+      \item Het vullen van de database en de formulieren.
+   \end{itemize}
+
+\section{Verslaglegging}
+
+  \begin{itemize}
+    \item Bespreken inhoud van de verslagen.
+  \end{itemize}
+
+\section{Planning}
+  \begin{itemize}
+    \item Planning voor volgende week.
+    \item Hoe gaan we werken tijdens de 3 vrije weken (tentamen periode).
+    \item Huidige planning aanpassen?
+  \end{itemize}
+
+\section{Evaluatie}
+  \begin{itemize}
+    \item Doorlopen van gemaakte afspraken.
+  \end{itemize}
+
+\section{Sluiting}
+
+\end{document}

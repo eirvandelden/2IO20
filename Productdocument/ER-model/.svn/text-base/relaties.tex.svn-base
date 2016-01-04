@@ -1,0 +1,30 @@
+%
+%  Created by Nick van der Veeken on 2006-12-13.
+%
+	\begin{enumerate}
+    \item pati\"ent ${<zit\_bij>}$ zorgverzekeraar
+    \item pati\"ent ${<behandelde\_pati}$\"e${nt>}$ case
+    \item case ${<staat\_op>}$ wachtlijst
+    \item case ${<verwezen\_door>}$ huisarts
+    \item case ${<is\_opgenomen>}$ opname
+    \item case ${<neemt\_medicatie>}$ voorgeschreven medicijnen
+    \item case ${<spreekt\_met>}$ afspraak
+    \item afspraak ${<type\_klacht>}$ afdeling
+    \item afspraak ${<type>}$ soort\_afspraak
+    \item werknemer ${<afspraak\_met>}$ afspraak
+    \item werknemer ${<werkt\_op>}$ afdeling
+    \item werknemer ${<heeft\_gewerkt>}$ werkverleden
+    \item werknemer ${<ingepland\_op>}$ rooster
+    \item werknemer ${<heeft\_contract>}$ contract
+    \item order ${<is\_van\_type>}$ producten
+    \item opname ${<ligt\_op>}$ bed
+    \item bed ${<hoort\_bij>}$ afdeling
+    \item voorgeschreven medicijnen ${<is\_van\_type>}$ producten
+    \item voorgeschreven medicijnen ${<wordt\_order\_van\_gemaakt>}$ order
+    \item pati\"ent ${<staat\_op>}$ wachtlijst
+    \item wachtlijst ${<heeft\_type\_afspraak>}$ soort afspraak
+    \item werknemer ${<is\_hoofdverantwoordelijke>}$ case
+    \item pati\"ent ${<is\_verwand\_met>}$ pati\"ent
+    \item wachtlijst ${<in_behandeling_op>}$ afdeling
+
+	\end{enumerate} 

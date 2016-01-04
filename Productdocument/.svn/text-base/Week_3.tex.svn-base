@@ -1,0 +1,19 @@
+% Beslissingen Template
+
+\subsection*{Voorlopig ER-Model en prototype GUI}
+
+\subsubsection*{Nick}
+\begin{itemize}
+\item Na het zien van Visio op de Visiotraining is besloten om dit programma niet te gebruiken. In plaats hiervan wordt Graffle, een Mac-programma gebruikt om het ER-model digitaal vorm te geven.
+\end{itemize}
+
+\subsubsection*{Etienne}
+\begin{itemize}
+\item Entiteiten worden gekozen door ze uit de tekstuele omschrijving van het ziekenhuis te halen. De relaties volgen ook uit de tekst.
+    Waar er keuzes gemaakt worden, zijn deze terug te zien in het ER-model en het bijbehorende document dat de relaties beschrijft. Specifieke restricties zijn nog niet bekend.
+\end{itemize}
+
+\subsubsection*{Sander}
+\begin{itemize}
+\item Het prototype van de GUI wordt gemaakt in tekstuele vorm, omdat het in elkaar klikken van iets dergelijks in Access net zoveel tijd in beslag zou nemen als het daadwerkelijk maken van het eindproduct en het zou stom zijn om twee keer bijna hetzelfde werk te doen.
+\end{itemize}

@@ -1,0 +1,62 @@
+\BOOKMARK [1][-]{section.1}{Inleiding}{}
+\BOOKMARK [1][-]{section.2}{Ontwerp}{}
+\BOOKMARK [2][-]{subsection.2.1}{Cases en Queries}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Use Case 1}{subsection.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Use Case 2}{subsection.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Use Case 3}{subsection.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.4}{Use Case 4}{subsection.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.5}{Use Case 5}{subsection.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.6}{Use Case 6}{subsection.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.7}{Use Case 7}{subsection.2.1}
+\BOOKMARK [3][-]{subsubsection.2.1.8}{Use Case 8}{subsection.2.1}
+\BOOKMARK [2][-]{subsection.2.2}{Beslissingen}{section.2}
+\BOOKMARK [3][-]{subsubsection.2.2.1}{Week 2}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.2}{Week 3}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.3}{Week 4}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.4}{Week 5}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.5}{Week 6}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.6}{Week 7}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.7}{Week 8}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.8}{Week 9}{subsection.2.2}
+\BOOKMARK [3][-]{subsubsection.2.2.9}{Week 10}{subsection.2.2}
+\BOOKMARK [1][-]{section.3}{Modellen}{}
+\BOOKMARK [2][-]{subsection.3.1}{Entiteiten}{section.3}
+\BOOKMARK [2][-]{subsection.3.2}{Relaties}{section.3}
+\BOOKMARK [2][-]{subsection.3.3}{Takenlijst}{section.3}
+\BOOKMARK [1][-]{section.4}{Structuurbeschrijving}{}
+\BOOKMARK [2][-]{subsection.4.1}{Handleiding}{section.4}
+\BOOKMARK [1][-]{section.5}{Pati\353ntgegevens}{}
+\BOOKMARK [1][-]{section.6}{Klachten}{}
+\BOOKMARK [2][-]{subsection.6.1}{Opnames}{section.6}
+\BOOKMARK [2][-]{subsection.6.2}{Recepten}{section.6}
+\BOOKMARK [2][-]{subsection.6.3}{Afspraken}{section.6}
+\BOOKMARK [2][-]{subsection.6.4}{Wachtlijst}{section.6}
+\BOOKMARK [1][-]{section.7}{Opnameoverzicht}{}
+\BOOKMARK [1][-]{section.8}{Overzicht selecteren}{}
+\BOOKMARK [1][-]{section.9}{Overzichtstypen}{}
+\BOOKMARK [2][-]{subsection.9.1}{Huidige bezetting}{section.9}
+\BOOKMARK [2][-]{subsection.9.2}{Huidige opnames}{section.9}
+\BOOKMARK [2][-]{subsection.9.3}{Huidige ontslagen}{section.9}
+\BOOKMARK [2][-]{subsection.9.4}{Afgehandelde opnames}{section.9}
+\BOOKMARK [2][-]{subsection.9.5}{Huidige bezetting}{section.9}
+\BOOKMARK [1][-]{section.10}{Detailvenster}{}
+\BOOKMARK [1][-]{section.11}{Wachtlijst bekijken}{}
+\BOOKMARK [1][-]{section.12}{Aan wachtlijst toevoegen}{}
+\BOOKMARK [1][-]{section.13}{Van wachtlijst tot opname}{}
+\BOOKMARK [1][-]{section.14}{Rekeningen bekijken}{}
+\BOOKMARK [1][-]{section.15}{Nieuwe rekeningen}{}
+\BOOKMARK [1][-]{section.16}{Rekeningen aflossen}{}
+\BOOKMARK [1][-]{section.17}{Werknemersgegevens}{}
+\BOOKMARK [1][-]{section.18}{Contracten}{}
+\BOOKMARK [1][-]{section.19}{Werkverleden}{}
+\BOOKMARK [1][-]{section.20}{Rooster}{}
+\BOOKMARK [1][-]{section.21}{Afspraken per werknemer}{}
+\BOOKMARK [1][-]{section.22}{Afspraken per afdeling}{}
+\BOOKMARK [1][-]{section.23}{Verbruik per pati\353nt}{}
+\BOOKMARK [1][-]{section.24}{Verbruik per afdeling}{}
+\BOOKMARK [1][-]{section.25}{Verbruik per product}{}
+\BOOKMARK [1][-]{section.26}{Medicijnuitgifte}{}
+\BOOKMARK [2][-]{subsection.26.1}{Recept selecteren}{section.26}
+\BOOKMARK [2][-]{subsection.26.2}{Datum van uitgifte}{section.26}
+\BOOKMARK [2][-]{subsection.26.3}{Aantal eenheden}{section.26}
+\BOOKMARK [2][-]{subsection.26.4}{Uitschrijven}{section.26}

@@ -1,0 +1,127 @@
+%
+%  untitled
+%
+%  Created by Etienne van Delden on 2007-02-14.
+%  Copyright (c) 2007 __MyCompanyName__. All rights reserved.
+%
+\documentclass{report}
+\usepackage[dutch]{babel}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for fullpage use
+\usepackage{fullpage}
+\usepackage[pdftex]{hyperref}
+
+% Uncomment some of the following if you use the features
+%
+% Running Headers and footers
+%\usepackage{fancyheadings}
+
+% Multipart figures
+%\usepackage{subfigure}
+
+% More symbols
+%\usepackage{amsmath}
+%\usepackage{amssymb}
+%\usepackage{latexsym}
+
+% Surround parts of graphics with box
+\usepackage{boxedminipage}
+
+% Package for including code in the document
+\usepackage{listings}
+
+% If you want to generate a toc for each section (use with book)
+\usepackage{minitoc}
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+%\newif\ifpdf
+%\ifx\pdfoutput\undefined
+%\pdffalse % we are not running PDFLaTeX
+%\else
+%\pdfoutput=1 % we are running PDFLaTeX
+%\pdftrue
+%\fi
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+\title{Gebruikershandleiding voor Hospital Manager}
+\author{ OGO Groep 1b }
+
+%\date{2007-02-14}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\chapter{Inleiding}\label{cha:inleiding} % (fold)
+
+\input{inleiding}
+
+% chapter inleiding (end)
+
+\chapter{Installatie}\label{cha:installatie} % (fold)
+
+\input{installatie}
+
+% chapter installatie (end)
+
+\chapter{Pati\"ent}\label{cha:patient} % (fold)
+
+\input{patient}
+
+% chapter patient (end)
+
+
+\chapter{Opnames}\label{cha:opnames} % (fold)
+
+\input{opnames}
+
+% chapter opnames (end)
+
+
+\chapter{Wachtlijst}\label{cha:wachtlijst} % (fold)
+
+\input{wachtlijst}
+
+% chapter wachtlijst (end)
+
+\chapter{Rekeningen}\label{cha:rekeningen} % (fold)
+
+\input{rekeningen}
+% chapter rekeningen (end)
+
+\chapter{Werknemer}\label{cha:werknemer} % (fold)
+
+\input{werknemer}
+
+% chapter werknemer (end)
+
+\chapter{Afspraken}\label{cha:afspraken} % (fold)
+
+\input{afspraak}
+
+% chapter afspraken (end)
+
+
+\chapter{Magazijn}\label{cha:magazijn} % (fold)
+
+\input{magazijn}
+
+% chapter magazijn (end)
+
+\chapter{Beveiliging}\label{cha:beveiliging} % (fold)
+
+\input{beveiliging}
+
+\bibliography{}
+\end{document}

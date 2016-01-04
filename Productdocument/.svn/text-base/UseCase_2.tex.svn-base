@@ -1,0 +1,27 @@
+% Opdracht Template
+
+% Benodigdheden voor de case:
+Hoofdzuster Dullemond van de afdeling KNO bereidt het dienstrooster
+van de volgende week voor. Ze bekijkt hoeveel en wanneer er pati\"enten die week
+ontslagen worden en wanneer. Naast het inplannen van een
+verpleegkundige A en een assistent-verpleegkundige gedurende de hele
+week moet ze ook twee hulpkrachten oproepen op dinsdag en donderdag
+voor het verschonen van de vrijgekomen bedden.
+
+% queries:
+\subsection*{Queries:}
+\begin{enumerate}
+  \item Geef de beschikbaarheid van verplegend personeel in week $x$
+  \item Geef een lijst met de data waarop in week $x$ pati\"enten worden
+  ontslaan op de afdeling KNO
+  \item Geef de beschikbaarheid van hulpkrachten in week $x$
+  \item Update de dienstroosters voor het in te roosteren personeel voor de dagen in week $x$
+\end{enumerate}
+
+\subsection*{Formulierbeschrijving}
+\begin{enumerate}
+	\item Het afdelingshoofd heeft een overzicht van het weekrooster van haar afdeling. Ze kan hierop personeel inroosteren en uitroosteren. De beschikbaarheid van personeel voor die week kan ze ook zien.
+	\item Er is een overzicht van de bezetting van de afdeling met pati\"eten en wanneer ze ontslagen worden.
+	\item Via de wachtlijst voor de afdeling kunnen nieuwe pati\"enten voor opname ingeroosterd worden.
+	\item Hulpkrachten worden ingeroosterd 
+\end{enumerate}

@@ -1,0 +1,170 @@
+%
+%  Created by Etienne van Delden on 2007-01-11.
+%
+\documentclass[]{article}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for fullpage use
+\usepackage{fullpage}
+
+% Uncomment some of the following if you use the features
+%
+% Running Headers and footers
+%\usepackage{fancyheadings}
+
+% Multipart figures
+%\usepackage{subfigure}
+
+% More symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{latexsym}
+
+% Surround parts of graphics with box
+\usepackage{boxedminipage}
+
+% Package for including code in the document
+\usepackage{listings}
+
+% If you want to generate a toc for each chapter (use with book)
+\usepackage{minitoc}
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+%\newif\ifpdf
+%\ifx\pdfoutput\undefined
+%\pdffalse % we are not running PDFLaTeX
+%\else
+%\pdfoutput=1 % we are running PDFLaTeX
+%\pdftrue
+%\fi
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+\title{Notulen - OGO 1.2, groep 2}
+\author{ Etienne van Delden \\ }
+
+\date{2007-01-11}
+
+\begin{document}
+
+\ifpdf
+\DeclareGraphicsExtensions{.pdf, .jpg, .tif}
+\else
+\DeclareGraphicsExtensions{.eps, .jpg}
+\fi
+
+\maketitle
+
+
+\section{Opening vergadering: 14.00 uur }
+  \begin{itemize}
+    \item Voorzitter: Jurjen Middendorp	
+    \item Notulist: Etienne van Delden
+    \item Afwezige leden: - 
+  \end{itemize}
+
+\section{Agenda}
+
+  \begin{itemize}
+     \item Extra agendapunt bij de Evaluatie: ``Verbeteringen voor het groepsproces''
+  \end{itemize}
+
+%\section{Bespreken van notulen vorige vergadering}
+
+%  \begin{itemize}
+%     \item Notulen van de vorige vergadering waren niet goed
+%  \end{itemize}
+
+%\section{Mededelingen Voorzitter}
+
+%\begin{itemize}
+  % \item
+%\end{itemize}
+
+\section{Mededelingen Tutor}
+
+  \begin{itemize}
+     \item Werkplan: 9 februari moet worden aangepast naar 8 februari
+     \item Nick was niet aanwezig bij de Access-training. Nick had de opdracht al ingeleverd, hij moet dit melden bij de verantwoordelijke docent, met een CC naar zowel mevr. Sidorova als dhr. Veltkamp.
+     \item Beoordeling van de KZH opdracht is binnen. Voor opmerkingen kan contact worden genomen met  de ouderejaars student Pim Vullers.
+		\begin{itemize}
+			\item Giso: onvoldoende (dit was bekend)
+			\item Etienne: onvoldoende (lege database)
+			\item Xander: Goed
+			\item Sander: Goed
+			\item Jurjen: Goed
+			\item Nick: Voldoende (2 kleine opmerkingen)
+		\end{itemize}
+  \end{itemize}
+
+
+
+%\section{Mededelingen leden}
+
+%\begin{itemize}
+  % \item
+%\end{itemize}
+
+%\section{Huishoudelijk}
+
+%\begin{itemize}
+  % \item
+%\end{itemize}
+
+\section{Opdracht bespreking}
+
+\begin{itemize}
+   \item Globaal datamodel: Het al ingeleverde ER-model was al voldoende om als globaal datamodel te gelden, er zijn een paar kleine wijzigingen doorgevoerd en al nagekeken door de expert. Wij kunnen verder werken
+   \item Na het weekend (eventueel maandag avond), maakt Jurjen de database af, d.w.z. alle tabellen zijn dan ingevoerd.
+   \item Er wordt afgesproken dat we voor de database zoveel mogelijk met losse bestanden werken. \footnote{Access kan tabellen uit aparte bestanden halen. Forms en queries zijn te exporten, er wordt afgesproken dat Jurjen het hoofddatabase bijwerkt en dat de rest werkt met lose bestanden. Een form en/of querie, wanneer af wordt gemaild naar Jurjen} 
+   \item De formulieren moeten nog worden gemaakt, deze zijn als volgt onderverdeeld:
+   		\begin{itemize}
+   			\item Xander: Formulier 1 en 2
+   			\item Sander: Formulier 3 en 9
+   			\item Etienne: Formulier 6
+   			\item Giso: Formulier 5
+   			\item Nick: Formulier 4 en 7
+   			\item Jurjen: Formulier 8 en 10
+   		\end{itemize}
+   	\item Er word afgesproken dat iedereen van zijn eigen formulier een korte beschrijving schrijft, om het verwerkingsproces van de gebruikershandleiding te vereenvoudigen.
+
+\end{itemize}
+
+\section{Verslaglegging}
+
+\begin{itemize}
+   \item Er was enige onduidelijkheid over de verslaglegging. Zowel Giso als Sander zijn ieder voor verantwoordelijk voor het project-document, wat bestaat uit een proces-document en een product-document. Deze twee losse documenten moeten dus \'e\'en document worden en niet de eerder verwachte twee.
+   \item Het proefverslag kan in week 8 worden ingeleverd zodat de tutor kan nakijken of het aan de eisen voldoet.
+\end{itemize}
+
+\section{Planning}
+
+\begin{itemize}
+   \item Er wordt voorgesteld om in de weken van de tentamens, toch iedere week bijeen te komen, ondanks dat er geen OGO gepland staat. Zowel Giso als Etienne hebben het dan enorm druk en mogen dan iets minder werk verrichten
+   \item Donderdag 18-01 is een OGO bijeenkomst om 11.00.
+   \item Donderdag 25-01 is een OGO bijeenkomst om 11.00. Tevens wordt dan gekeken wanneer/hoe laat er een bijeenkomst op 01-02 is.
+\end{itemize}
+
+\section{Evaluatie}
+
+\begin{itemize}
+   \item Bij de studentenoverleg was onze verantwoordelijke er niet, dit was Jurjen. Jurjen krijgt de opmerking dat hij hier aan moet werken, misschien is een telefoon of pda of een agenda een idee.
+   \item De logboeken komen iets later, ivm. ziekte van Nick.
+   \item De volgende vergadering is op 08-02 om 14.00
+\end{itemize}
+
+\section{Sluiting}
+  \begin{itemize}
+    \item De vergadering werd gesloten om 14.43
+  \end{itemize}
+
+$\boxtimes$
+
+\end{document}

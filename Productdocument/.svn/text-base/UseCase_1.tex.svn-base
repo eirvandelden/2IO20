@@ -1,0 +1,36 @@
+% Opdracht Template
+
+% Benodigdheden voor de case:
+Er moet een afspraak gemaakt kunnen worden met een dokter van een bepaalde
+afdeling.
+Na de afspraak moet de dokter het resultaat van de afspraak kunnen invoeren dat later makkelijk nagezocht kan worden door andere doktoren die deze pati\"ent
+voor dezelfde klacht behandelen en dar iet over willen lezen.\\
+Verder moet er een wachtlijst zijn voor operaties, hierop moet iets staan als de
+prioriteit van de operatie en de datum waarop de pati\"ent op de wachtlijst is
+gezet.\\
+Er moeten een voorraad-functie zijn in de database om de beschikbare medicijnen
+mee te beheren en te bestellen.
+
+
+% queries:
+\subsection*{Queries:}
+\begin{enumerate}
+
+\item Geef de mensen die het langst op de wachtlijst staan
+   en de hoogste prioriteit hebben om geopereerd te worden geeft.
+
+  \item Geef het rooster van dokter Denez.
+  \item Voeg mevrouw Flipse toe aan de wachtlijst
+  \item Voeg aan het dossier van mevrouw Flipse toe dat ze een inhaler krijgt toegeschreven.
+%\item hier komt een querie
+% ect.
+
+\end{enumerate}
+
+\subsection*{Formulierbeschrijving:}
+\begin{itemize}
+\item Er moet een formulier zijn om een afspraak te maken met een beschikbare arts op een beschikbare tijd.
+\item Er moet een formulier zijn waar een behandelend arts de conclusie van een afspraak kan invoeren.
+\item Er moet een formulier zijn om een case toe te voegen aan de wachtlijst.
+\item Er moet een formulier zijn om medicijnen voor te schrijven
+\end{itemize}

@@ -1,0 +1,42 @@
+% Opdracht Template
+
+% Benodigdheden voor de case:
+Maureen Janssen heeft aan hoofdzuster Dullemond gevraagd of ze met
+iemand kan wisselen om zo de dinsdag avond vrij te krijgen.
+Dullemond vindt een mogelijkheid tot ruilen met Carolien Kommes.
+Carolien zou dan op de dinsdag- en woensdagavond werken en Maureen
+werkt dan vrijdag en zaterdag morgen.
+Er moet dus in de database een werkrooster staan.
+
+
+
+% queries:
+\subsection*{Queries:}
+\begin{enumerate}
+
+\item Geef het rooster voor week $X$
+\item Geef het rooster van dag $x$ tot dag $y$
+\item Geef het aantal gewerkte uren in maand $m$ voor persoon $n$
+
+\end{enumerate}
+
+\subsection*{Formulieren beschrijving:}
+Deze case zal bestaan uit 3 formulieren.
+\begin{enumerate}
+\item De eerste zal een overzichten geven ( een tabel ) met het werk
+verleden van \'e\'en van de werknemers van het ziekenhuis. Je zoekt
+dit overzicht op naargelang de sleutel ( waarschijnlijk werknemers
+nummer of eventueel naam ).
+\item Een Rooster dat werktijden van werknemers aangeeft door middel
+van shifts ( dagdelen ). Dit vormt \'e\'en grote tabel. Ook komt er
+het totaal aantal werkuren voor die week. Werknemers moeten ook
+apart op te zoeken zijn en dat doe je door middel van een veld waar
+je de naam of het nummer van de werknemer invult.
+\item Een Contract formulier. Hier op zijn standaard gegevens zijn
+te vinden over de werknemer, zoals zijn of haar naam, een standaard
+maandloon, de contractduur etc..
+
+\end{enumerate}
+
+
+Hoofd

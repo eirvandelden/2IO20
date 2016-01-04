@@ -1,0 +1,29 @@
+% Beslissingen Template
+
+\subsection*{Senario's voor demonstratie}
+\subsubsection*{Nick}
+\begin{itemize}
+\item \textbf{Zorgverzekeraars en huisartsen:} Alle zorgverzekeraars en huisartsen zijn bekend in de
+database. Er komen geen zorgverzekeraars bij en er gaan geen
+zorgverzekeraars failliet. Hetzelfde geldt voor huisartsen.
+
+\item \textbf{Afdelingen:} De namen van afdelingen worden niet gewijzigd. Er komen ook
+geen afdelingen bij, er worden ook geen afdelingen opgeheven.
+
+\item \textbf{Rekeningen:} Rekeningen (van recepten, afspraken en opnames) worden toegevoegd aan een aparte tabel
+'rekening'. Recepten en afspraken worden bij het aanmaken ook direct
+aan rekeningen toegevoegd. Opnames krijgen een dummyrekening-ID
+toegewezen wanneer ze aangemaakt worden en ze krijgen hun
+uiteindelijke ID wanneer de opname wordt be\"eindigd.
+\end{itemize}
+
+\subsection*{GUI: Open vragen}
+\begin{itemize}
+\item \textbf{Rekeningen:} De financi\"ele kant van de zaak levert nog een probleem op: Hoe
+kan je zien of een rekening betaald is?\\
+Voorstel: De zorgverzekeraar betaalt alle rekeningen voor de
+pati\"ent. Er komt een attribuut 'is\_betaald' bij in de tabellen
+'recept', 'afspraak' en 'opname'. (vraag is opgelost)
+\end{itemize}
+\subsection*{Mogelijke verbeteringen}
+(zie 4.2)

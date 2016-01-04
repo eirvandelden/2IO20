@@ -1,0 +1,75 @@
+% Productdocument OGO 1.2, groep 2, jaargang '06-'07, trimester 2.
+
+\documentclass[11pt]{report}
+
+%% Gebruikte pakketten
+\usepackage[dutch]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage[]{hyperref}
+\usepackage{epstopdf}
+\usepackage{textcomp}
+\usepackage{fancyhdr}
+\usepackage[official ]{eurosym}
+
+%% Het Document
+\begin{document}
+
+\include{titelblad}
+
+\tableofcontents
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%\chapter*{Samenvatting}
+%    \input{samenvatting}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%\chapter*{Inleiding}
+%    \input{inleiding}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% leg situaties uit en formuleer queries
+\chapter*{Cases en Queries}
+\section*{Use Case 1}
+    \input{UseCase_1}
+\section*{Use Case 2}
+    \input{UseCase_2}
+\section*{Use Case 3}
+    \input{UseCase_3}
+\section*{Use Case 4}
+    \input{UseCase_4}
+\section*{Use Case 5}
+    \input{UseCase_5}
+\section*{Use Case 6}
+    \input{UseCase_6}
+\section*{Use Case 7}
+    \input{UseCase_7}
+\section*{Use Case 8}
+    \input{UseCase_8}
+
+\chapter*{Beslissingen}
+\section*{Week 2}
+    \input{Week_2}
+\section*{Week 3}
+    \input{Week_3}
+\section*{Week 4}
+    \input{Week_4}
+\section*{Week 7}
+    \input{Week_7}
+\section*{Week 11}
+    \input{Week_11}
+\section*{Week 12}
+    \input{Week_12}
+\section*{Week 14}
+    \input{Week_14}
+\section*{Week 16}
+    \input{Week_16}
+    
+%%%%%%%%%%%%%%%%%%%%%%%%%
+% lijst van taken die in het ziekenhuis vervuld worden
+\chapter*{Takenlijst}
+    \input{takenlijst/takenlijst}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%\chapter*{Conclusie}
+%    \input{conclusie}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}

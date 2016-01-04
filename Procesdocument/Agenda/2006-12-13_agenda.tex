@@ -1,0 +1,118 @@
+\documentclass[]{article}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for fullpage use
+\usepackage{fullpage}
+
+% Uncomment some of the following if you use the features
+%
+% Running Headers and footers
+%\usepackage{fancyheadings}
+
+% Multipart figures
+%\usepackage{subfigure}
+
+% More symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{latexsym}
+
+% Surround parts of graphics with box
+\usepackage{boxedminipage}
+
+% Package for including code in the document
+\usepackage{listings}
+
+% If you want to generate a toc for each chapter (use with book)
+\usepackage{minitoc}
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+%\newif\ifpdf
+%\ifx\pdfoutput\undefined
+%\pdffalse % we are not running PDFLaTeX
+%\else
+%\pdfoutput=1 % we are running PDFLaTeX
+%\pdftrue
+%\fi
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+\title{Agenda}
+\author{ Giso Dal \\ }
+
+\date{ 13 december 2006 }
+
+\begin{document}
+
+\ifpdf
+\DeclareGraphicsExtensions{.pdf, .jpg, .tif}
+\else
+\DeclareGraphicsExtensions{.eps, .jpg}
+\fi
+
+\maketitle
+
+
+\section{Opening vergadering}
+  \begin{itemize}
+      \item Voorzitter: Giso
+      \item Notulist: Nick
+      \item Aanwezigheid leden
+  \end{itemize}
+
+\section{Bespreken van notulen vorige vergadering}
+
+  \begin{itemize}
+     \item Taakverdeling van de gebruikers van de database
+     \item Vragen voor de vak expert
+     \item Bewaking van planning en proces
+     \item Gestelde deadlines veranderen
+     \item Wie wordt als hoofdverantwoordelijke aanwijzen voor de
+    "Bespreking vergaderingen en gevolgen ontwerp en realisatie"?
+  \end{itemize}
+
+\section{Mededelingen tutor}
+
+\section{Mededelingen leden}
+
+\section{Opdracht bespreking}
+
+  \begin{itemize}
+    \item Opkomende deadline: ER-model (etienne)
+
+  \end{itemize}
+
+\section{Verslaglegging}
+
+  \begin{itemize}
+    \item Bespreken inhoud van de verslagen.
+  \end{itemize}
+
+\section{Planning}
+  \begin{itemize}
+    \item Deadline bijstellen
+    \item Huidige planning nog aanpassen?
+    \item Planning voor volgende week
+  \end{itemize}
+
+\section{Evaluatie}
+  \begin{itemize}
+    \item Doorlopen van gemaakte afspraken
+  \end{itemize}
+
+\section{Sluiting}
+  \begin{itemize}
+    \item Volgende vergadering: 21 december. Voorzitter is Sander,
+    Notulist is Xander.
+  \end{itemize}
+
+$\boxtimes$
+
+\end{document}

@@ -1,0 +1,27 @@
+% Beslissingen Template
+
+\subsection*{Presentatie}
+
+
+
+\subsection*{Beveiliging}
+Er is een beveiliging ge-implementeerd. Deze werkt op een redelijk simpele
+manier, waarmee elke gebruiker een inlogcode (werknemer nummer) en een
+paswoord krijgt en aan de hand daarvan bepaalde dingen met de database wel
+of niet kan doen. Dit is een vrij simpel beveiligings-systeem en zou
+natuurlijk niet afdoende voor een serieus project, maar voor een
+ogo-project leek het ons afdoende.\\
+We hebben ervoor gekozen om aan de hand van de rechten die een gebruiker
+heeft bepaalde knoppen op het hoofdformulier aan en uit te zetten en zo
+toegang tot bepaalde handelingen met de database te toe- en ontzeggen.\\
+Deze rechten zijn gebaseerd op de takenlijst en wat er sowieso met de
+database kan (en moet). Voor een arts is het dus grotendeels alleen nodig
+om patient-informatie en afspraken te zien, terwijl het voor mensen van de
+financi\"ele administratie ook nodig moet zijn om rekeningen en informatie
+over het magazijn te bekijken. De formulieren die voor deze dingen nodig
+zijn kunnen met rechten worden aangepast aan de gebruiker.
+\subsection*{Projectverslag}
+We hebben besloten het projectverslag op te delen in twee stukken:
+het productdeel en het procesdeel. Dit hebben we gedaan omdat bij
+ogo 1.1 expliciet ge"\eist werd. Bovendien was de hoeveelheid werk
+zo te verdelen over twee personen.

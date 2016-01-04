@@ -1,0 +1,8 @@
+\subsection{Handleiding}
+\input{manual}
+
+\subsection{Beslissingen}
+\input{ontbeslissingen}
+
+\subsection{Mogelijke verbeteringen}
+\input{Verbeteringen}

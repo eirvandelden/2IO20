@@ -1,0 +1,31 @@
+Dit zijn een aantal ontwerpbeslissingen voor de database:
+\begin{itemize}
+\item Er is een nieuwe tabel rekening, deze is door een foutje 
+	verbonden met de tabel patient ipv. case. Je kunt echter wel op een 
+	handige manier alle dingen die nog niet verrekend zijn op een nieuwe
+	rekening voor deze maand zetten en die versturen. Om ervoor te 
+	zorgen dat dit goed werkt, is er in de tabellen "Afspraak", 
+	"Uitgifte" en "Opname" een nieuwe veld toegevoegd om aan te geven
+	op welke rekening dit staat. Dit is eventueel iets handiger dan een
+   aantal aparte tabellen maken waarin wordt bijgehouden welke dingen al
+   zijn verrekend. Helaas is het niet gelukt om een mooie query te maken,
+   waardoor het geheel een beetje ineffici\"ent is (maar wel correct).
+
+\item Om ervoor te zorgen dat de tabel wachtlijst een nuttige functie 
+	vervuld is deze erg aangepast met iets andere velden en relaties met 
+   andere tabellen. Het is nu wel mogelijk om makkelijk een patient op de
+   wachtlijst te zetten en er ook op een nuttige manier weer af te halen,
+   doordat er tegelijk een afspraak en een opname van wordt gemaakt. Het
+   alternatief was om dit handmatig te doen, wat voor de gebruiker meer
+   werk (met kans op slordigheden) betekend.
+
+\item Het rooster is een beetje veranderd, zo is shift vervangen door een
+	begintijd en een eindtijd.
+
+\item Voor de beveiliging is er ook iets afgeweken van het uitgebreide
+   model dat we in het begin hadden gemaakt (zie de takenlijst). We hebben
+   ervoor gekozen om iedere werknemer een paswoord en een aantal rechten te 
+   geven, en aan de hand daarvan worden er knoppen ge-en-en-disabled op het
+   hoofdmenu.
+
+\end{itemize}

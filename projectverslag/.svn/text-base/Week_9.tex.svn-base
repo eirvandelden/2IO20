@@ -1,0 +1,17 @@
+% Beslissingen Template
+
+\subsection*{Demonstratie}
+\subsubsection*{Giso}
+\begin{itemize}
+\item Iedereen zorgt ervoor dat zijn eigen gemaakte formulier werkt.
+\item er was commentaar over de database tijdens de demonstratie,
+maar we gaan geen veranderingen meer aanbrengen. Commentaar punten
+waren:
+\begin{itemize}
+\item Er kunnen meerdere mensen in 1 ruimte liggen, een afspraak of
+een operatie hebben.
+\item Er kunnen meerdere mensen tegelijktijd in 1 bed liggen.
+\item In de database is de bloedgroep van een pati\'ent niet
+opgenomen.
+\end{itemize}
+\end{itemize}

@@ -1,0 +1,216 @@
+\documentclass[10pt,twoside]{report}
+    %\usepackage{tuestyle}
+    \usepackage{amsmath}
+    \usepackage{amssymb}
+    \usepackage{amsthm}
+    \usepackage{array}
+    \usepackage{xy}
+    \topmargin 0.0cm
+    \textheight 7.7in
+    \textwidth 6.5in
+    \oddsidemargin 0.0cm
+    \evensidemargin 0.0cm
+    \headheight 0.0cm
+    \headsep 0.0cm
+    \topskip 1.0cm
+
+\author{Nick van der Veeken}
+\title{Deadlines, trainingen en besprekingen}
+\begin{document}
+
+{\Large \textbf{Werkplan}} {\Large OGO Groep 2}, versie 1.009\\\\
+
+\begin{enumerate}
+\item \textbf{Besprekingen met expert}
+    \begin{itemize}
+        \item \checkmark \space Doorspreken producten d.d. 8 december met expert (eind week 2)
+        \item \checkmark \space Doorspreken producten week 3 en 4 met expert (eind week 3)
+    \end{itemize}
+
+\item \textbf{Trainingen}
+    \begin{itemize}
+        \item \checkmark \space \textbf{Access-training 1:} 13:30 tot 15:15, woensdag 29 november, AUD 10 (week 1)
+        \item \checkmark \space \textbf{Introductie Visio:} 1e uur, dinsdag 4 december (week 2)
+        \item \checkmark \space \textbf{Vergadertraining 1:} 14:30 tot 15:30, donderdag 7 december, locatie: Traverse 4 (week 2)
+        \item \checkmark \space \textbf{Vergadertraining 2:} 14:30 tot 15:30, donderdag 21 december, locatie: Traverse 5 (week 4)
+        \item \checkmark \space \textbf{Access-training 2:} 13:30 tot 15:15, woensdag 10 januari, AUD 10 (week 5)
+    \end{itemize}
+
+\item \textbf{Studentenoverleg}
+    \begin{itemize}
+        \item \checkmark \space 13 december, 13:00, HG 5.95, afgevaardigde: Nick
+        \item $\chi$ \space 10 januari, 13:00, HG 5.95, afgevaardigde: Jurjen
+        \item \checkmark \space 14 februari, 13:00, HG 5.95, afgevaardigde: Etienne
+    \end{itemize}
+
+\item \textbf{Deadline- en taakoverzicht}\\
+    \\
+    Interne deadlines staan op 23:59, de woensdag voor de eigenlijke harde
+    deadline. Dit om te zorgen dat er nog nagekeken en eventueel
+    verbeterd kan worden.
+
+    \begin{itemize}
+      \item 1 december, 12:00 (Week 1)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Oefencasus 'Klein Ziekenhuis':} Access-database, inleveren via Studyweb
+        \end{itemize}
+      \item 8 december, 12:00 (week 2)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Werkplan (Nick):} PDF, op papier bij de tutor en in de groepsfolder op Studyweb
+          \item \checkmark \space \textbf{Aangepaste use cases (Jurjen):} PDF, op papier bij expert en in de groepsfolder
+          \item \checkmark \space \textbf{Taakoverzicht (Sander):} PDF, op papier bij expert en in de groepsfolder
+          \item \checkmark \space \textbf{Lijst van queries en updates (Giso):} PDF, op papier bij expert en in de groepsfolder
+        \end{itemize}
+      \item 15 december, 12:00 (week 3)
+        \begin{itemize}
+          \item \checkmark \space \textbf{ER-model, eerste versie (Etienne):} Visio(of gelijk/meerwaardig), op papier bij de expert en in de groepsfolder
+        \end{itemize}
+      \item 22 december, 12:00 (week 4)
+        \begin{itemize}
+          \item \checkmark \space \textbf{ER-model, eindversie (Xander):} Visio, op papier bij de expert en in de groepsfolder
+          \item \checkmark \space \textbf{Prototype GUI (Sander):} Access-database, per email bij de expert en in de groepsfolder
+        \end{itemize}
+      \item 12 januari, 12:00 (week 5)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Globaal datamodel (Nick):} Op papier bij de expert en in de groepsfolder
+        \end{itemize}
+      \item 8 februari, 14:00, tijdens de vergadering (week 6)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Gevulde database met werkende formulieren en rapporten (Jurjen):} Aan de tutor laten zien en in de groepsfolder plaatsen
+        \end{itemize}
+      \item 12 februari, 12:00 (week 7)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Scenario's voor oefendemonstratie (Nick):} Op papier bij de tutor en in de groepsfolder.
+        \end{itemize}
+      \item 14 februari, 23:59 (week 7)
+         \begin{itemize}
+          \item \checkmark \space \textbf{Suggesties uitbreiding database mailen naar Sander (Iedereen):}
+          Mail twee suggesties voor toegevoegde functionaliteit aan
+          de database naar Sander. Geef naast een omschrijving van
+          de functionaliteit (een paar regels) ook nog een suggestie
+          voor een gemakkelijke implementatie van de
+          functionaliteit.
+        \end{itemize}
+      \item 15 februari, 14:00 (week 7)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Voorlopige handleiding demonstratie scenario's (Nick):}
+          Een letterlijke omschrijving van wat in welke velden in de
+          database moet worden ingevuld om de scenario's te kunnen
+          demonstreren.
+          \item \checkmark \space \textbf{Oefendemonstratie (Nick):} De tutor krijgt een demonstratie van de scenario's die
+          ontworpen zijn aan hand van de use cases.
+        \end{itemize}
+      \item 16 februari, 12:00 (week 7)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Suggesties voor toegevoegde functionaliteit aan de database (Sander):} Op papier bij de expert en in de groepsfolder
+          \item \checkmark \space \textbf{Scenario's voor oefendemonstratie (Nick):} De scenario's inleveren op papier bij de projectcoördinator en in de
+          groepsfolder.
+        \end{itemize}
+      \item 28 februari, 23:59 (week 8)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Voorlopige versie gebruikershandleiding
+          (Etienne):} Aan de tutor laten zien ter evaluatie.
+        \end{itemize}
+      \item 2 maart, 12:00 (week 8)
+        \begin{itemize}
+            \item \checkmark \space \textbf{Proefversie projectverslag (Giso en
+            Sander):} Op papier bij de tutor (ter controle van de
+            structuur, nog niet alle tekst hoeft af te zijn, als de
+            hoofdstukken en kopjes er maar staan).
+            \item \checkmark \space \textbf{Gebruikershandleiding (Etienne):} Op papier bij de projectcoördinator en in de groepsfolder
+        \end{itemize}
+      \item 8 maart, 13:45 - 14:00, locatie ?? (week 8)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Handleiding demonstratiescenario's (Nick):}
+          Een letterlijke omschrijving van wat in welke velden in de
+          database moet worden ingevuld om de scenario's te kunnen
+          demonstreren.
+          \item \checkmark \space \textbf{Demonstratie (Nick):} Demonstratie van de database aan de projectcoördinator en de
+          expert
+          14:15
+        \end{itemize}
+      \item 14 maart, 23:59 (week 8)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Definitieve versie evaluatie OGO-project en reflectie (Iedereen):} Naar Sander mailen
+        \end{itemize}
+      \item 14 maart, 23:59 (week 9)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Vragen demonstratie voor andere groepen
+            (Nick):} Voor eigen gebruik, aantal generieke vragen verzinnen
+            voor de beiden varianten presentaties om aan de andere
+            groepen te stellen wanneer we niet on-the-fly vragen
+            kunnen bedenken.
+        \end{itemize}
+      \item 15 maart, 12:45 tot 14:00, PAV M.23 (week 9)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Presentatie (Etienne):} Klantgerichte
+          presentatie, met beamer. Demonstratie van het product met
+          bijbehorend verkooppraatje
+        \end{itemize}
+      \item 16 maart, 12:00 (week 10)
+        \begin{itemize}
+          \item \checkmark \space \textbf{Applicatiesoftware, incl. gebruikersnamen en wachtwoorden (Giso):} Op cd bij de projectcoördinator en in de groepsfolder
+          \item \checkmark \space \textbf{Logboek (Nick):} Op papier bij de tutor en in de groepsfolder (let op de naamgeving)
+          \item \checkmark \space \textbf{Procesdocument (Sander):} Op papier bij de projectcoördinator en in de groepsfolder
+          \item \checkmark \space \textbf{Productdocument (Ontwerpbeslissingen: Giso):} Op papier bij de projectcoördinator en in de groepsfolder
+        \end{itemize}
+    \end{itemize}
+
+\item \textbf{Planning}\\
+  \\
+  Werklast wordt genoemd als aantal personen, beginnen in welke week
+  en hoeveel uur per persoon die eraan werkt. Het werk moet af zijn voor de deadline die hierboven voor het werk genoemd staat. Dus
+  bijvoorbeeld: ``ER-model: Beginnen in week 2, 3 personen, 8 uur'' houdt
+  in: 24 uur werklast, begint in week 2 en moet af zijn in week 4
+  (zie deadline ER-model hierboven).\\
+
+  Al af:
+  \begin{itemize}
+    \item \textbf{Globaal datamodel:} Beginnen: direct na de kerstvakantie. Eventueel het huidige ER-model
+    aanpassen, bij elkaar genomen 1 persoon, 2 uur
+    \item \textbf{Documentatie database bijwerken:} Zolang als de
+    database nog wordt veranderd, 1 persoon, 1 uur per week
+    \item \textbf{Gevulde database met werkende formulieren en
+    rapporten:} Beginnen: na de kerstvakantie. Werklast: 3 weken, zes personen, 8
+    uur per persoon
+    \item \textbf{Suggesties toevoegen features aan database:} Beginnen in week 6, tijdens de OGO-bijeenkomsten. Bespreking: gehele groep, 1 uur. Uitwerken in het begin van week
+    12, gehele groep, 1 uur. Samenvoegen, 1 persoon, 1 uur
+    \item \textbf{Scenario's voor de oefendemonstratie:} Bedenken en op papier uitwerken van de
+    scenario's: 2 personen, 4 uur in week 6 of 7. De demonstratie zelf zal niet meer dan 20
+    minuten in beslag nemen.
+    \item \textbf{Gebruikershandleiding:} Beginnen: als de
+    formulieren klaar zijn. Werklast: 2 weken, 3 man, 8 uur per week
+    \item \textbf{Proefversie projectverslag:} Inleveren in week 8
+    \item \textbf{Applicatiesoftware op cd zetten, incl. gebruikersnamen en
+    wachtwoorden:} Beginnen: in de week van de deadline voor de
+    software, werklast: 1 persoon, 2 uur
+    \item \textbf{Logboek:} Iedere week bijwerken (5 minuten per persoon per week), in week 10 als PDF bij het procesdocument
+    voegen, 1 persoon, 30 minuten
+    \item \textbf{Procesdocument:} Al gemaakte delen bijeenvoegen in
+    week 15, 2 personen, 4 uur. Afwerken in week 10, 2 personen, 8 uur
+    \item \textbf{Productdocument:} Gemaakte delen bijeenvoegen in
+    week 14 en 15, 2 personen, 4 uur. Afwerken in week 10, 2 personen, 8 uur
+    \item \textbf{Presentatie:} Beginnen: 3 weken voor het houden van
+    de presentatie; werklast: 2 man, 3 maal 4 uur.\\
+  \end{itemize}
+
+\item \textbf{Logboek}\\
+    \\
+    Het logboek is bij ieder groepslid op dinsdagavond
+    23:59 zo ver mogelijk bijgewerkt en op de SVN-server gezet.
+
+\item \textbf{Voorziene afwezigheid}
+    \begin{itemize}
+        \item \textbf{21 december:} Etienne en Nick, vanaf 15:30 (voor de
+        kerstlunch W\&I).
+        \item \textbf{vanaf begin februari:} Xander is gestopt met
+        zijn studie, dus hij zal niet meer aanwezig zijn bij
+        bijeenkomsten en verder ook niet meer meewerken aan het
+        project.
+        \item \textbf{14 februari:} Giso is ziek, dus komt niet naar
+        de OGO-bijeenkomst.
+    \end{itemize}
+
+\end{enumerate}
+
+\end{document}

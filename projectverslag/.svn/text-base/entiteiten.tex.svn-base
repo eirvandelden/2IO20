@@ -1,0 +1,41 @@
+  \begin{enumerate}
+\item Patient; Hier staan alle patienten, met patientgegevens. Een patient is verbonden met een zorgverzekeraar.
+
+\item Zorgverzekeraar; Dit bevat alle gegevens van een zorgverzekering.
+
+\item Afspraak; Dit zijn alle reeds vastgelegde afspraken. Een afspraak is verbonden aan een case en aan een soort afspraak.
+
+\item Case; Alle verwante afspraken van 1 patient horen bij 1 case. Een case is verbonden aan een pati\"ent (en een huisarts).
+
+\item Soort afspraak; Hierin zijn alle mogelijke soorten afspraken vastgelegd, met een standaard tarief.
+
+\item Huisarts; Bevat contactinformatie van alle bekende huisartsen.
+
+\item Producten; Bevat alle beschikbare producten van de centrale apotheek, zoals medicijnen, verbandjes.
+
+\item Voorgeschreven Medicijnen; Alle voorgeschreven medicijnen. Deze entiteit is gekoppeld aan een case en aan een soort product (het medicijn).
+
+\item Order; Bevat de medicijnbestellingen. Deze entiteit is gekoppeld aan producten.
+
+\item Wachtlijst; De wachtlijst is de lijst waarop alle mensen die opgenomen willen
+worden maar nu nog niet (als er bijvoorbeeld geen plek is in het ziekenhuis,
+bijvoorbeeld).
+
+\item Opname; Alle mensen die ooit eens in het ziekenhuis op een bed hebben gelegen
+staan geregistreerd. Zowel met de begin-als einddatum van de opname in totaal, als
+met de begin- en einddatum van op welk specifiek bed ze hebben gelegen.
+
+\item Bed; Dit zijn alle bedden in het ziekenhuis met een specifiek nummer.
+
+\item Afdeling; Dit zijn alle afdelingen in het ziekenhuis.
+
+\item Werknemer; Dit zijn alle werknemers die in het ziekenhuis werken. Elke
+werknemer heeft een apart werkverleden en contract.
+
+\item Contract; Dit is het contract waarmee een werknemer is verbonden met het
+ziekenhuis.
+
+\item Rooster; Dit is het rooster, waar per dag en shift een aantal werknemers
+onder een bepaalde rol staan ingeroosterd.
+
+\end{enumerate}

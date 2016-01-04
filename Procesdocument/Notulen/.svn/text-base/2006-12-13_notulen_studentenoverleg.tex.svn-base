@@ -1,0 +1,153 @@
+%
+%  Created by Nick van der Veeken on 2006-12-13.
+%
+\documentclass[]{article}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for full page use
+\usepackage{fullpage}
+
+% Uncomment some of the following if you use the features
+%
+% Running Headers and footers
+%\usepackage{fancyheadings}
+
+% Multipart figures
+%\usepackage{subfigure}
+
+% More symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{latexsym}
+
+% Surround parts of graphics with box
+\usepackage{boxedminipage}
+
+% Package for including code in the document
+\usepackage{listings}
+
+% If you want to generate a toc for each chapter (use with book)
+\usepackage{minitoc}
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+%\newif\ifpdf
+%\ifx\pdfoutput\undefined
+%\pdffalse % we are not running PDFLaTeX
+%\else
+%\pdfoutput=1 % we are running PDFLaTeX
+%\pdftrue
+%\fi
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+\title{Notulen studentenoverleg}
+\author{Nick van der Veeken\\ }
+
+\date{2006-12-13}
+
+\begin{document}
+
+\ifpdf
+\DeclareGraphicsExtensions{.pdf, .jpg, .tif}
+\else
+\DeclareGraphicsExtensions{.eps, .jpg}
+\fi
+
+\maketitle
+
+
+\section{Opening}
+  \begin{itemize}
+    \item Opening: 13:00 uur
+	  \item Voorzitter: N. Sidorova
+	  \item Notulist: Nick van der Veeken
+	  \item Afwezige leden: Vertegenwoordiger van groep 1, 5, 7, 8, 9
+  \end{itemize}
+
+
+\section{Notulen vorige vergadering}
+
+  \begin{itemize}
+     \item Notulen van de vorige vergadering zijn er niet, omdat dit het eerste studentenoverleg is.
+  \end{itemize}
+
+\section{Mededelingen voorzitter}
+
+  \begin{itemize}
+    \item Het valt op dat er van de 9 groepen slechts 4 groepen een afgevaardigde naar het studentenoverleg hebben gestuurd. Wellicht is het de afwezige groepen ontschoten dat vandaag dit overleg plaatsvindt. Er vindt tijdens dit trimester nog twee keer een studentenoverleg plaats. Mevrouw Sidorova vraagt aan de leden om kort te vertellen hoe het gaat met het OGO-project. Iedereen geeft aan dat het over het algemeen goed gaat.
+   
+    \item De zalen die beschikbaar zijn voor OGO zijn gewijzigd naar: 8.58 (4 groepen), 10.56 (4 groepen), 10.62 (1 groep). Wanneer er studenten van andere jaargangen of studies tijden de OGO-uren aan het werk zijn in deze ruimten, mogen deze verjaagd worden.
+  \end{itemize}
+
+\section{Mededelingen leden}
+
+  \begin{itemize}
+    \item Er zijn geen mededelingen van de leden.
+  \end{itemize}
+
+\section{Gemiste trainingen en inleveropgaven}
+
+  \begin{itemize}
+    \item Een aantal studenten heeft nog niet alle inleveropgaven van de Access-training ingeleverd via Studyweb. Dit kan echter nog steeds en er wordt verwacht dat dit zo snel mogelijk gebeurd. Ook zijn er verscheidene studenten die een extra opgave moeten inleveren omdat ze een verplichte bijeenkomst hebben gemist. Dit moet ook zo spoedig mogelijk. Consequentie van het niet inleveren is het niet krijgen toegekend van een cijfer voor dit OGO project. De tutoren zullen deze week de groepen vertellen wie er nog welke documenten moet inleveren.
+  \end{itemize}
+
+\section{Afwezige OGO-groepsleden}
+
+  \begin{itemize}
+    \item Er wordt gevraagd of er groepen zijn waarbij leden soms of in het geheel niet komen opdagen voor groepsbijeenkomsten zonder dat gemeld te hebben. Bij \'e\'en groep was dit het geval, maar er was bij het begin van het project al duidelijk dat deze persoon de studie ging verlaten en daar was dan ook rekening mee gehouden bij het opstellen van de planning.
+  \end{itemize}
+
+\section{Expert}
+
+  \begin{itemize}
+    \item Iedere groep heeft met hun expert ofwel overlegd, ofwel een afspraak staan om vandaag nog de ingeleverde documenten te bespreken. Het is bij de meeste groepen wel even zoeken naar een datum waarop de expert en de groepsleden allen bijeen kunnen komen. Het afspreken van een vaste tijd op de week voor het overleg met de expert kan wenselijk zijn voor beide partijen.
+  \end{itemize}
+
+\section{Vergadertraining}
+
+  \begin{itemize}
+    \item De ervaringen met de vergadertraining afgelopen week zijn positief. De uitleg over vergaderen was tamelijke algemeen, begrijpelijk en leerzaam. Het analyseren van de vergadering uitgevoerd tijdens de training zou moeten leiden tot betere vergaderingen in het komende weken. De volgende vergadertraining volgt binnenkort. Als het goed is zal de vergadering die dan gehouden wordt technische gezien beter moeten verlopen dan de vergadering tijdens afgelopen training.
+  \end{itemize}
+
+\section{Werkzaamheden week 3 en 4}
+
+  \begin{itemize}
+    \item Sidorova vertelt in het kort wat er de komende twee weken op het programma staat. Het betreft het maken van een prototype GUI en het ontwerpen van het ER-model. Deze twee zaken gaan hand in hand. Aanpassingen aan het model zullen in de GUI tot uiting komen en het uitbreiden van de GUI zal (meestal) leiden tot een aanpassing van het ER-model.
+        
+    \item Het is de bedoeling dat het ER-model stapsgewijs, in stukjes wordt opgebouwd. Ook is het verstandig de kleine onderdelen van het model door de expert te laten controleren en te verbeteren alvorens de delen samen te voegen tot de drie deelmodellen die voor eind week 3 af moeten zijn. Het zal deze twee weken voorkomen dat er meerdere keren op een week met de expert wordt gesproken.
+        
+    \item De geleverde producten hoeven niet perfect te zijn. Dat kan ook niet. Het doel is om een ER-model en prototype te maken dat goed genoeg is om mee verder te ontwikkelen zonder grote problemen tegen te komen tijdens het verdere verloop van het project.
+        
+    \item De controle die op de deelmodellen en de GUI moet plaatsvinden houdt in dat de use cases uitgevoerd moeten kunnen worden met de ontworpen ER-modellen en dat er voor alle handelingen knoppen en velden zijn voorzien in de GUI.
+        
+    \item Voor de kerst moeten alle deelmodellen en het prototype in orde zijn, zodat in de week na de vakantie het globaal ER-model kan worden samengesteld uit de deelmodellen.
+  \end{itemize}
+
+\section{Vragenronde}
+
+  \begin{itemize}
+    \item Er worden een aantal vragen gesteld door de studenten. De eerste vraag gaat over de inhoud van het procesdocument. Naast de notulen en agenda's moeten ontwerpbeslissingen, conclusies van besprekingen met de expert en een verslag van het groepsproces in het procesdocument worden opgenomen.
+        
+    \item Het uitwerken van de ER-modellen kan in Visio. Er zijn echter nog andere programma's beschikbaar voor dit doeleinde. Het is toegestaan deze te gebruiken, mits er een afdruk op papier of in PDF gemaakt kan worden om in te leveren bij de expert en op Studyweb.
+    
+    \item Ook de prototype GUI mag op een manier naar keuze gemaakt worden, zolang als het resultaat maar te beoordelen is in de vorm van een fysieke afdruk, PDF-document of een op eenvoudige manier uit te voeren applicatie (denk bijvoorbeeld ook aan HTML).
+        
+    \item De eindpresentatie kan voor twee verschillende soorten publiek gegeven worden. De keuze is aan de groep. Wat betreft de klantgerichte presentatie werd gevraagd of er een live-demonstratie van het eindproduct mag worden gegeven. Dit is in orde.
+  \end{itemize}
+  
+\section{Sluiting}
+
+  \begin{itemize}
+    \item De vergadering wordt om 13:45 gesloten. 10 januari vindt het volgende studentenoverleg plaats. Misschien, als dat nodig is, vindt er nog een extra studentenoverleg plaats. Dringende vragen kunnen echter ook direct bij mevrouw Sidorova worden neergelegd.
+  \end{itemize}
+
+$\boxtimes$
+
+\end{document}

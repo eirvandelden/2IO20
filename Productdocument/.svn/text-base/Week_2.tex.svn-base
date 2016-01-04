@@ -1,0 +1,23 @@
+% Beslissingen Template
+
+\subsection*{Werkplan}
+\subsubsection*{Nick}
+\begin{itemize}
+\item Rekening houden met een startdatum en een interne deadline.
+\end{itemize}
+
+\subsection*{Taakoverzicht}
+\subsubsection*{Sander}
+\begin{itemize}
+\item Er wordt een lijst gemaakt van groepen gebruikers en welke gegevens die straks in het systeem mogen lezen en schrijven.
+\end{itemize}
+
+\subsection*{Lijst van Use Cases en Queries}
+\subsubsection*{Giso}
+\begin{itemize}
+\item Als verantwoordelijk van het Product document heb ik een tex
+document gemaakt waar iedereen via SVN zijn eigen update kan
+toevoegen.
+\item Iedereen is aangewezen om een bepaalde Use Case door te nemen
+en passende queries erbij te verzinnen.
+\end{itemize}

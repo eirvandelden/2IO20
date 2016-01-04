@@ -1,0 +1,43 @@
+\subsubsection{Patient}\label{cha:patient} % (fold)
+
+\input{patient}
+
+% chapter patient (end)
+
+
+\subsubsection{Opnames}\label{cha:opnames} % (fold)
+
+\input{opnames}
+
+% chapter opnames (end)
+
+
+\subsubsection{Wachtlijst}\label{cha:wachtlijst} % (fold)
+
+\input{wachtlijst}
+
+% chapter wachtlijst (end)
+\subsubsection{Rekeningen}\label{cha:rekeningen} % (fold)
+
+\input{rekeningen}
+% chapter rekeningen (end)
+
+\subsubsection{Werknemer}\label{cha:werknemer} % (fold)
+
+\input{werknemer}
+
+% chapter werknemer (end)
+
+\subsubsection{Afspraken}\label{cha:afspraken} % (fold)
+
+\input{afspraak}
+
+% chapter afspraken (end)
+
+
+\subsubsection{Magazijn}\label{cha:magazijn} % (fold)
+
+\input{magazijn}
+
+\subsubsection{Beveiliging}
+\input{Beveiliging}

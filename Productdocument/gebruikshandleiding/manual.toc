@@ -1,0 +1,47 @@
+\select@language {dutch}
+\contentsline {chapter}{\numberline {1}Inleiding}{2}{chapter.1}
+\contentsline {chapter}{\numberline {2}Installatie}{3}{chapter.2}
+\contentsline {chapter}{\numberline {3}Pati\"ent}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Pati\"entgegevens}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}Klachten}{5}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Opnames}{5}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Recepten}{6}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Afspraken}{7}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Wachtlijst}{7}{subsection.3.2.4}
+\contentsline {chapter}{\numberline {4}Opnames}{8}{chapter.4}
+\contentsline {section}{\numberline {4.1}Opnameoverzicht}{8}{section.4.1}
+\contentsline {section}{\numberline {4.2}Overzicht selecteren}{8}{section.4.2}
+\contentsline {section}{\numberline {4.3}Overzichtstypen}{9}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Huidige bezetting}{9}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Huidige opnames}{9}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Huidige ontslagen}{9}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Afgehandelde opnames}{9}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5}Huidige bezetting}{9}{subsection.4.3.5}
+\contentsline {section}{\numberline {4.4}Detailvenster}{9}{section.4.4}
+\contentsline {chapter}{\numberline {5}Wachtlijst}{10}{chapter.5}
+\contentsline {section}{\numberline {5.1}Wachtlijst bekijken}{10}{section.5.1}
+\contentsline {section}{\numberline {5.2}Aan wachtlijst toevoegen}{11}{section.5.2}
+\contentsline {section}{\numberline {5.3}Van wachtlijst tot opname}{11}{section.5.3}
+\contentsline {chapter}{\numberline {6}Rekeningen}{12}{chapter.6}
+\contentsline {section}{\numberline {6.1}Rekeningen bekijken}{12}{section.6.1}
+\contentsline {section}{\numberline {6.2}Nieuwe rekeningen}{12}{section.6.2}
+\contentsline {section}{\numberline {6.3}Rekeningen aflossen}{12}{section.6.3}
+\contentsline {chapter}{\numberline {7}Werknemer}{13}{chapter.7}
+\contentsline {section}{\numberline {7.1}Werknemersgegevens}{14}{section.7.1}
+\contentsline {section}{\numberline {7.2}Contracten}{14}{section.7.2}
+\contentsline {section}{\numberline {7.3}Werkverleden}{14}{section.7.3}
+\contentsline {section}{\numberline {7.4}Rooster}{14}{section.7.4}
+\contentsline {chapter}{\numberline {8}Afspraken}{15}{chapter.8}
+\contentsline {section}{\numberline {8.1}Afspraken per werknemer}{15}{section.8.1}
+\contentsline {section}{\numberline {8.2}Afspraken per afdeling}{15}{section.8.2}
+\contentsline {chapter}{\numberline {9}Magazijn}{16}{chapter.9}
+\contentsline {section}{\numberline {9.1}Verbruik per pati\"ent}{16}{section.9.1}
+\contentsline {section}{\numberline {9.2}Verbruik per afdeling}{16}{section.9.2}
+\contentsline {section}{\numberline {9.3}Verbruik per product}{16}{section.9.3}
+\contentsline {section}{\numberline {9.4}Medicijnuitgifte}{17}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Recept selecteren}{17}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Datum van uitgifte}{17}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {9.4.3}Aantal eenheden}{17}{subsection.9.4.3}
+\contentsline {subsection}{\numberline {9.4.4}Uitschrijven}{17}{subsection.9.4.4}
+\contentsline {chapter}{\numberline {10}Beveiliging}{18}{chapter.10}
+\contentsline {section}{\numberline {10.1}Beveiliging}{18}{section.10.1}

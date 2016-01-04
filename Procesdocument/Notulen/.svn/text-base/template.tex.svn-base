@@ -1,0 +1,129 @@
+%
+%  Created by <name> on <date>.
+%
+\documentclass[]{article}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for fullpage use
+\usepackage{fullpage}
+
+% Uncomment some of the following if you use the features
+%
+% Running Headers and footers
+%\usepackage{fancyheadings}
+
+% Multipart figures
+%\usepackage{subfigure}
+
+% More symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{latexsym}
+
+% Surround parts of graphics with box
+\usepackage{boxedminipage}
+
+% Package for including code in the document
+\usepackage{listings}
+
+% If you want to generate a toc for each chapter (use with book)
+\usepackage{minitoc}
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+%\newif\ifpdf
+%\ifx\pdfoutput\undefined
+%\pdffalse % we are not running PDFLaTeX
+%\else
+%\pdfoutput=1 % we are running PDFLaTeX
+%\pdftrue
+%\fi
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+\title{Notulen - OGO 1.2, groep 2}
+\author{ <name> \\ }
+
+\date{<date>}
+
+\begin{document}
+
+\ifpdf
+\DeclareGraphicsExtensions{.pdf, .jpg, .tif}
+\else
+\DeclareGraphicsExtensions{.eps, .jpg}
+\fi
+
+\maketitle
+
+
+\section{Opening vergadering: <time> uur }
+  \begin{itemize}
+    \item Voorzitter: <name>
+    \item Notulist: <notulist>
+    \item Afwezige leden:
+  \end{itemize}
+
+
+%\section{Bespreken van notulen vorige vergadering}
+
+%  \begin{itemize}
+%     \item Notulen van de vorige vergadering waren niet goed
+%  \end{itemize}
+
+\section{Mededelingen Voorzitter}
+
+  %\begin{itemize}
+    % \item
+  %\end{itemize}
+
+\section{Mededelingen tutor}
+
+%\begin{itemize}
+  % \item
+%\end{itemize}
+
+\section{Mededelingen leden}
+
+%\begin{itemize}
+  % \item
+%\end{itemize}
+
+\section{Huishoudelijk}
+
+%\begin{itemize}
+  % \item
+%\end{itemize}
+
+\section{Opdracht bespreking}
+
+%\begin{itemize}
+  % \item
+%\end{itemize}
+
+\section{Verslaglegging}
+
+%\begin{itemize}
+  % \item
+%\end{itemize}
+
+\section{Planning}
+
+%\begin{itemize}
+  % \item
+%\end{itemize}
+
+\section{Sluiting}
+  \begin{itemize}
+    \item De vergadering sloot om
+  \end{itemize}
+
+$\boxtimes$
+
+\end{document}

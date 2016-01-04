@@ -1,0 +1,31 @@
+% Opdracht Template
+
+% Benodigdheden voor de case:
+Zuster Jansen verneemt dat Davy Crocket langer opgenomen moet
+blijven, en past in de database aan dat zijn bed op de afdeling dus
+langer bezet blijft. Ze zoekt het telefoonnummer van mevrouw Flipse
+op, omdat die hierdoor niet opgenomen kan worden, om een operatie
+te plannen. Die operatie staat op de wachtlijst. Ze maakt met haar
+een afspraak voor opname en operatie en meteen ook een vervolgafspraak
+met de specialist van mevrouw Flipse.
+
+
+% queries:
+\subsection*{Queries:}
+\begin{enumerate}
+
+\item Verander de einddatum van de opname van Davy Crocket
+\item Lees het telefoonnummer van mevrouw Flipse
+\item Lees de mogelijke data en tijden voor een operatie voor mevrouw Flipse
+\item Lees de mogelijke data en tijden voor opname van mevrouw
+Flipse
+\item Schrijf de opname van mevrouw Flipse
+\item Schrijf de operatie van mevrouw Flipse
+\item Verander de wachtlijst, zodat mevrouw Flipse er niet meer op
+staat
+\item Lees de mogelijkheden voor een afspraak n\'a 9 februari bij de
+specialist van mevrouw Flipse
+\item Schrijf de afspraak van mevrouw Flipse
+%...
+
+\end{enumerate}

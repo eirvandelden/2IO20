@@ -1,0 +1,34 @@
+\begin{itemize}
+\item Productenformulier\\
+Op dit formulier kun je producten toevoegen, verwijderen en de voorraad ervan beheren.\\
+    \begin{itemize}
+    \item Het toevoegen van een product geschiedt door in de tabel Producten alle attributen in te vullen.
+    \item Een product mag niet helemaal uit de database verwijderd worden omdat dan bijvoorbeeld de medicijngeschiedenis van pati\"enten niet meer zou kloppen. Er kan echter wel voorkomen worden dat het nog voorgeschreven wordt, door een boolean attribuut 'kan nog geleverd worden' aan Producten toe te voegen.
+    Hierin wordt bijgehouden of het product nog geleverd mag worden. Op elk formulier waar medicijnen uitgeschreven worden moet gecontroleerd worden of dat medicijn nog wel geleverd mag worden. We gebruiken voor producten altijd comboboxen, waarvan de query zo aangepast moet worden dat alleen medicijnen die 'kan nog geleverd worden' true hebben weergegeven worden.\\
+    Indien een product uitgegeven moet worden terwijl 'kan nog geleverd worden' false is, moet degene die het uitgeeft beslissen: indien het product een medicijn is, moet de specialist een ander medicijn voorschrijven, indien het geen medicijn is kan een vervangend product gezocht worden. In beide gevallen moet een nieuw recept uitgeschreven worden.
+    \item Het voorraadbeheer is een overzicht per product hoe veel er van dan product op voorraad is. Hierin zijn correcties mogelijk, bijvoorbeeld vanwege derving.\\
+    \item Een verdere verbetering zou zijn dat bijgehouden wordt wie welke correcties maakt, maar dit wordt nu niet uitgewerkt.
+    Alle gegevens voor voorraadbeheer zijn al aanwezig in de database.
+    \end{itemize}
+
+\item Jaaroverzichten voor alle werknemers\\
+Hiervoor wordt een tabel Salarissen\_uitbetalingen toegevoegd met de attributen 'datum', 'werknemer\_id' en 'bedrag'.
+Met deze tabel wordt de financi\"ele administratie compleet, want er kunnen allerlei queries gemaakt worden, als: 'alle uitbetalingen aan werknemer X dit jaar', 'alle uitbetalingen in maart' of 'alle uitbetalingen in april van de afdeling KNO'.
+
+\item De manier waarop rekeningen worden verstuurd en berekend is een beetje ineffici\"ent. Er waren eerst drie queries gemaakt, 
+	en die zijn iets teveel gebruikt, waardoor het geheel niet heel erg snel werkt, hoewel het wel correct is.
+
+\item Ruimtebeheer\\
+Dit formulier geeft een overzicht van alle ruimtes
+    \begin{itemize}
+    \item Op het formulier staat allereerst het nummer van de kamer (bijvoorbeeld: HG 10.63)
+    \item Ook het aantal bedden dat in de ruimte kan staan staat op het formulier. Een 'aantal bedden' van nul geeft aan dat de ruimte gebruikt wordt voor consulten of operaties. Kantines, opslagruimten ed hoeven niet in deze tabel voor te komen.
+    \item Hiervoor moet de tabel Ruimte toegevoegd worden, met attributen 'ruimte\_naam' en 'aantal\_bedden'
+    \item Om ervoor te zorgen dat elk bed in \'e\'en ruimte staat, voegen we het attribuut 'in\_ruimte' toe aan de tabel Bed.
+    \item Middels de aan te maken tabel Zetelt\_in worden specialisten en laboranten aan een ruimte gekoppeld. Zo hebben consulenten eigen ruimtes, die toch nog door anderen gebruikt kunnen worden.
+    \item Op de formulieren waar bedden ingepland worden, moet naast een bed ook een ruimte worden gekozen. Als er meer bedden in een ruimte gepland worden dan er in passen, moet het systeem een waarschuwing geven, omdat door omstandigheden wel eens meer bedden op een kamer gezet moeten kunnen worden dan er eigenlijk in zouden passen.
+    \item Op de formulieren waar afspraken ingepland worden, worden nu ook ruimtes ingepland. Het systeem zal een ruimte voorstellen die door middel van Zetelt\_in gekoppeld is aan de werknemer waarmee een afspraak wordt gemaakt. De gebruiker kan ook een andere ruimte kiezen.
+    \item Een verdere verbetering zou zijn dat het systeem een waarschuwing geeft als een ruimte dubbel ingepland dreigt te worden.
+    \end{itemize}
+
+\end{itemize}

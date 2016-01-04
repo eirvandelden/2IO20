@@ -1,0 +1,9 @@
+Verbeterpunten voor de database:
+\item{ Het is in onze database niet mogelijk dat een dokter 
+  (eventueel met verschillende contracten) bij verschillende
+  afdelingen werkt.  Terwijl ik denk dat dit in het echt best 
+  mogelijk zou kunnen zijn. 
+  Dit zou te implementeren zijn door een veel-op-veel verbinding 
+  te maken met als attribuut het contract oid.}
+\item{ Er is veel redundantie in de database. Het zou misschien beter zijn 
+  alles wat een mens is (werknemers, huisartsen, contactpersonen en patiente) te modelleren met een ISA verbinding}

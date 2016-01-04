@@ -1,0 +1,69 @@
+%
+%  untitled
+%
+%  Created by <name> on <date>.
+%
+\documentclass[]{article}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for fullpage use
+\usepackage{fullpage}
+
+\title{Agenda - OGO 1.2, groep 2}
+\author{Nick}
+
+\date{2007-02-08}
+
+\begin{document}
+\maketitle
+
+
+\section{Opening vergadering: }
+  \begin{itemize}
+    \item Voorzitter: Nick
+    \item Notulist: Giso
+    \item Aanwezigheid leden
+  \end{itemize}
+
+\section{Goedkeuring agenda}
+
+\section{Notulen vorige vergadering}
+
+\section{Mededelingen voorzitter}
+
+\section{Mededelingen tutor}
+
+\section{Mededelingen leden}
+
+\section{Opdracht}
+
+   \begin{itemize}
+      \item Demonstratie database met formulieren
+      \item Hoe zit het nou met de voorraad, orders, verbruik van
+      medicijnen?
+      \item Verbeterpunten databaseapplicatie
+   \end{itemize}
+
+\section{Verslaglegging}
+
+  \begin{itemize}
+    \item Bespreken inhoud van de verslagen. Staat er zo genoeg in?
+  \end{itemize}
+
+\section{Planning}
+  \begin{itemize}
+    \item Studentenoverleg 14 februari, evt. vragen voor mevr. Sidorova
+    \item Planning voorzitter en notulisten aanpassen, werkplan aanpassen: Xander
+    \item Werkplan bekijken, concrete afspraken maken over werkzaamheden
+  \end{itemize}
+
+\section{Evaluatie}
+  \begin{itemize}
+    \item Doorlopen gemaakte afspraken
+  \end{itemize}
+
+\section{Sluiting}
+
+\end{document}

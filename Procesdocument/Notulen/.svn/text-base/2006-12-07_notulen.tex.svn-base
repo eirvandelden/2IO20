@@ -1,0 +1,128 @@
+%
+%  Created by Jurjen on 7-12
+%
+\documentclass[]{article}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for fullpage use
+\usepackage{fullpage}
+
+% Uncomment some of the following if you use the features
+%
+% Running Headers and footers
+%\usepackage{fancyheadings}
+
+% Multipart figures
+%\usepackage{subfigure}
+
+% More symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{latexsym}
+
+% Surround parts of graphics with box
+\usepackage{boxedminipage}
+
+% Package for including code in the document
+\usepackage{listings}
+
+% If you want to generate a toc for each chapter (use with book)
+\usepackage{minitoc}
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+%\newif\ifpdf
+%\ifx\pdfoutput\undefined
+%\pdffalse % we are not running PDFLaTeX
+%\else
+%\pdfoutput=1 % we are running PDFLaTeX
+%\pdftrue
+%\fi
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+\title{Notulen 07-12-2006}
+\author{groep 1b (of 2) }
+%Voorzitter: Xander
+%Notulist: Jurjen
+\date{07-12-2006}
+
+\begin{document}
+\maketitle
+\section{Bespreken notulen vorige vergadering}
+Er was een zin uit de vorige notulen niet duidelijk. Volgens de tutor had
+hijzelf nooit het woord ``rest'' gebruikt om daarmee proces en product documenten
+mee aan te duiden. Er wordt ter verduidelijking nog een keer afgesproken dat
+notulen en dergelijke op studyweb komen en dat de rest (bijvoorbeeld
+proef-product-versies) via svn ingeleverd kunnen worden.
+
+\section{Mededelingen tutor}
+De tutor vraagt of er in deze groep personen waren geweest die niet bij de
+Visio-training zijn geweest. De schuldige (Jurjen) meldt zich en zegt toe om de
+inhaal-opdracht te maken.\\
+Er stonden ook nog geen logboeken op studyweb. Dit komt zo snel mogelijk.\\
+De notulen van de vorige vergadering stonden in de verkeerde map op studyweb. Ze
+moeten in de Proces map staan (of een submap daarvan) maar niet in de klad
+map.\\
+Als het nodig is om aanpassingen aan de notulen te maken moet dat zowel in de
+notulen van de vergadering waarin dit is besloten staan als in die notulen
+zelf.\\
+De zalen en plekken die in de studiegids staan om ogo te doen zijn niet goed. De
+juiste zalen zijn: HG 8.58, HG 10.56 en HG 10.62.\\
+
+%sorry mensen, op dit moment was de vergadering al een hele tijd bezig, en het
+%was eerlijk gezegd nogal saai, mijn excuses dat de kwaliteit van mijn notulen
+%daar een beetje onder geleden heeft.
+
+\section{Mededelingen groepsleden}
+Etienne had een vraag over de taakverdeling van gebruikers van de
+database. Nick had een vraag over de taakoverzicht lijst van de
+medewerkers van het ziekenhuis en of dit gerelateerd moest zijn aan
+de use cases. In beide gevallen kwam het antwoord van de tutor er
+ongeveer op neer dat we de opdracht goed moesten lezen en daarna
+met inhoudelijke vragen naar de expert moeten gaan en niet naar de
+tutor.\\
+
+\section{Over de opdracht van deze week}
+We moeten na de vergadering nog wel even aan de opdrachten voor vrijdag werken,
+maar we denken dat het wel af gaat komen.\\
+\section{Random vergader punten}
+Er is een uitgebreide discussie over de definitie van presentatie en
+demonstratie. Uiteindelijk komen we op het volgende uit:\\
+\begin{itemize}
+\item Presentatie: Een terugblik op het groepswerk, en een statische uitleg van
+het gedane werk (screenshots).
+\item Demonstratie: Een volledig interactieve real-time demonstratie van
+een product.
+\end{itemize}
+Gelukkig krijgen we nog een presentatie training waarin de subtielere
+verschillen tussen deze twee uitgebreid aan de orde zullen komen. %yay
+Eventuele vragen zullen ook aan Sidorova gesteld kunnen worden tijdens het
+sudentoverleg.\\
+Voor meer informatie over planning en het procesdocument kunnen we ook kijken op
+de OGO-internet pagina. Onder andere is er daar een link naar Atos (?). Bij die
+presentatie staat rond slide 30 interessante dingen over het bewaken van
+planning en proces.\\
+De hoofdverantwoordelijke voor "Bespreking vergaderingen en gevolgen ontwerp en
+realisatie" moet een groepslid zijn.\\
+Ons schema voor deadlines was niet goed. Deadlines voor het werk van groepsleden
+moeten eerder worden gesteld dan de deadlines waarop we het werk uiteindelijk
+moeten inleveren. Dit om eventuele fouten en misverstanden en daardoor
+vertragingen te voorkomen. 
+
+De volgende vergadering is volgende week (14-december 2006) om 14:00 uur in
+H8.58.\\
+De voorzitter sluit zo rond 15:15 de vergadering.\\
+
+De vergaderjuffrouw had nog een opmerking over dat we erg lang vergaderen en
+daarom niet in staat zijn geweest om nog een extra vergadering te houden over
+``groepscriteria en groepsregels''. Als we dat leuk vinden mogen daar in onze
+vrije tijd nog een keer over vergaderen.
+
+\end{document}

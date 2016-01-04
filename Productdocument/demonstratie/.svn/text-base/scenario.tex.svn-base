@@ -1,0 +1,130 @@
+%
+%  Created by Nick van der Veeken on 2007-02-12.
+%
+
+\documentclass[]{article}
+
+% Use UTF-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for full page use
+\usepackage{fullpage}
+
+
+% More symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{Scenario's oefendemonstratie}
+\author{Nick van der Veeken}
+
+\date{2006-12-14}
+
+\begin{document}
+
+\subsection*{Scenario's (oefensessie) - OGO Groep 2 - versie 1.007}
+
+\subsubsection*{Use Case 1}
+  \begin{enumerate}
+    \item Mevrouw Flipse komt binnen in het ZZ, doorverwezen door
+    huisarts Pierson voor een verstopte neus: \\Mevrouw Flipse is nog niet bekend bij het ZZ, ze wordt
+    aan het pati\"entenbestand toegevoegd. Haar klacht (verstopte
+    neus) wordt toegevoegd als nieuwe case, met huisarts Pierson als
+    doorverwijzend arts. Dokter Dendez wordt als behandelend specialist aangesteld
+    en er wordt een afspraak met Dendez gemaakt op 18 april 2007
+    om 15:00 uur, op de afdeling KNO in kamer 1.
+
+    \item Mevrouw Flipse komt op afspraak bij dokter Dendez:
+    \\Mevrouw Flipse heeft een correctie van het neustussenschot
+    nodig, dit moet operatief gebeuren. Ze krijgt een recept voor een inhaler voorgeschreven om de pijn te verlichten. Ook komt ze op de
+    wachtlijst voor een neustussenschotoperatie.
+
+    \item Met haar recept gaat mevrouw Flipse naar de centrale
+    apotheek: \\De apotheekmedewerker pakt een inhaler uit de
+    voorraad en schrijft deze uit de voorraad uit.
+  \end{enumerate}
+
+\subsubsection*{Use Case 2}
+  \begin{enumerate}
+    \item Kijk naar de bezetting van bedden op de afdeling KNO in de week volgend op 1
+    mei 2007, 7 tot en met 13 mei: er worden op dinsdag drie pati\"enten ontslaan en
+    op donderdag vier.
+
+    \item 7 pati\"enten worden ontslagen, er moeten dus 7
+    pati\"enten van de wachtlijst af worden ingeroosterd.
+
+    \item Qua werknemers moet er op ieder moment die week een verpleegkundige A en een
+    assistentverpleegkundige aanwezig zijn en op dinsdag en
+    donderdag twee hulpkrachten.
+  \end{enumerate}
+
+\subsubsection*{Use Case 3}
+  \begin{enumerate}
+    \item Maureen Jansen ruilt haar dienst op dinsdag- en
+    woensdagavond met de dienst van Carolien Kommes op vrijdag- en
+    zaterdagochtend:\\
+    Doe dit door achtereenvolgens Maureen Jansen vrij te geven op dinsdag- en woensdagavond 8 en 9 mei, Carolien Kommes vrij te geven op vrijdag- en
+    zaterdagochtend 11 en 12 mei, Maureen Jansen in te roosteren op vrijdag- en
+    zaterdagochtend 11 en 12 mei en tenslotte Carolien Kommes in te roosteren op dinsdag- en
+    woensdagavond 8 en 9 mei.
+  \end{enumerate}
+
+\subsubsection*{Use Case 4}
+  \begin{enumerate}
+    \item Davy Crocket moet langer blijven: \\Verander zijn geplande
+    ontslagdatum van 4 mei 2007 naar 7 mei 2007.
+
+    \item Na een tijdje wachten op de wachtlijst is er is een plaats vrijgekomen voor mevrouw Flipse om geopereerd te worden:
+    \begin{itemize}
+      \item Plan een operatie in voor mevrouw Flipse op dinsdagmiddag 8 mei 2007, 14:00 uur, OK3.
+      \item Verwijder mevrouw Flipse van de wachtlijst voor neustussenschotoperaties.
+    \end{itemize}
+
+    \item Plan een afspraak in voor mevrouw Flipse op de KNO
+    op dinsdagochtend 26 juni 2007, om 9:00 uur voor het verwijderen van de
+    buisjes die bij de operatie zijn aangebracht.
+
+  \end{enumerate}
+
+\subsubsection*{Use Case 5}
+  \begin{enumerate}
+    \item Mevrouw Flipse wordt uit het ZZ ontslagen: \\Schrijf
+    mevrouw Flipse uit.
+
+    \item Er wordt een rekening opgemaakt: \\Maak de rekening op
+    voor de casus ``behandeling neustussenschot'' d.d. 18 april 2007 van pati\"ent
+    Flipse.
+
+    \item Plan een afspraak in voor controle van mevrouw Flipse op 3 juli 2007, om 9:00 uur op de afdeling KNO met dokter Dendez in kamer 3.
+  \end{enumerate}
+
+\subsubsection*{Use Case 6}
+  \begin{enumerate}
+    \item Maak rekeningen op voor de casus ``beknelde zenuw'' d.d. 10 januari 2007 van
+    mijnheer van Bommel uit Helmond. E\'en rekening gaat over januari,
+    een andere over februari.
+  \end{enumerate}
+
+\subsubsection*{Use Case 7}
+  \begin{enumerate}
+    \item Er worden vermoedelijk medicijnen gestolen. Om dit te onderzoeken
+    moet de werkelijke voorraad overeenkomen met de voorraad zoals
+    opgegeven in de database.
+  \end{enumerate}
+
+\subsubsection*{Use Case 8}
+  \begin{enumerate}
+    \item Petra Jenssen komt bij het ZZ werken: \\Voeg een Petra toe
+    als nieuwe werknemer voor 15 uur per week, flexibel, met een
+    bruto maandsalaris van 2161 euro bij een 36-urige werkweek.
+
+    \item Voeg de CV van Petra toe aan haar werknemersgegevens.
+
+    \item Voeg de gegevens over gevolgde opleidingen en arbeidsverleden toe aan Petra's gegevens.
+
+    \item Verdere details over Petra's aanstelling worden
+    doorgegeven aan Petra's chef. Deze worden niet in de database
+    bijgehouden.
+  \end{enumerate}
+
+\end{document}

@@ -1,0 +1,353 @@
+8
+
+dir
+623
+http://svn.heynsbergen.com/Productdocument/access
+http://svn.heynsbergen.com
+
+
+
+2007-03-15T16:11:51.408875Z
+618
+Nick
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+46cb2e05-9993-af4a-a48e-3cba3a36d649
+
+ziekenhuis_opdracht met formulier 1.mdb
+file
+
+
+
+
+2007-03-08T08:39:39.000000Z
+b114cb0affdc1b608c05685175a6eb75
+2007-02-28T14:53:51.675124Z
+350
+Jurjen
+has-props
+
+ziekenhuis_opdracht met opnameoverzichtsformulier.mdb
+file
+
+
+
+
+2007-03-08T08:39:39.000000Z
+c0f356dc3b52d12c3e6ec5d4ff310e4c
+2007-02-28T14:53:51.675124Z
+350
+Jurjen
+has-props
+
+giso_afspraak_venster.mdb
+file
+
+
+
+
+2007-03-14T14:33:15.000000Z
+ea2862a36f13442024537bb3ec5445af
+2007-03-01T13:50:04.909499Z
+383
+Giso
+has-props
+
+to-do.tex
+file
+
+
+
+
+2007-03-08T08:39:40.000000Z
+353d147dd36584cdd3a65f9b1b7dbb58
+2007-03-07T14:42:26.539125Z
+483
+Nick
+
+ziekenhuis_opdracht met formulier 3.mdb
+file
+
+
+
+
+2007-03-08T08:39:40.000000Z
+b4ebb77ccdb979c7053b90ca896119ee
+2007-02-28T14:53:51.675124Z
+350
+Jurjen
+has-props
+
+GISO formulier afspraken.mdb
+file
+
+
+
+
+2007-03-14T14:33:15.000000Z
+2a5e0c7005d92c2dd404bd40354f60d3
+2007-03-01T13:35:11.268874Z
+377
+Giso
+has-props
+
+ziekenhuis_opdracht met formulier 4.mdb
+file
+
+
+
+
+2007-03-08T08:39:40.000000Z
+42fd78086f523c0577f5a79edd82065c
+2007-02-07T14:56:05.009750Z
+245
+Jurjen
+has-props
+
+de_allernieuweste_ziekenhuis_opdracht.mdb
+file
+
+
+
+
+2007-03-27T18:48:04.000000Z
+eb60fafc424eca352443837dea30c858
+2007-03-15T15:42:53.252625Z
+616
+Nick
+has-props
+
+ziekenhuis_opdracht met formulier 6.mdb
+file
+
+
+
+
+2007-03-08T08:39:40.000000Z
+a8c9e20bae50ae39722c32abbd038dc2
+2007-02-28T14:53:51.675124Z
+350
+Jurjen
+has-props
+
+werknemersscherm.mdb
+file
+
+
+
+
+2007-03-08T08:39:41.000000Z
+9f90581f5d3c44cd9730a6d970bc67f9
+2007-02-28T15:29:54.862624Z
+355
+Sander
+has-props
+
+vergelijk_de_allernieuweste.png
+file
+
+
+
+
+2007-03-08T08:39:41.000000Z
+4dae0d5b364b5ed362b6f59737e7a2da
+2007-03-08T08:05:46.976625Z
+520
+Nick
+has-props
+
+rekeningen.mdb
+file
+
+
+
+
+2007-03-08T08:39:42.000000Z
+fe5dea77f54a29ef9b1f3b5150b4fa1f
+2007-02-28T21:43:53.690749Z
+367
+Etienne
+has-props
+
+nieuw recepten rapport.mdb
+file
+
+
+
+
+2007-03-08T08:39:42.000000Z
+5f6395c8ac36dcd92895dd7ab4cfdd7e
+2007-02-28T16:23:16.862624Z
+362
+Etienne
+has-props
+
+ziekenhuis_opdracht met formulier 9.mdb
+file
+
+
+
+
+2007-03-08T08:39:42.000000Z
+9fda51d5ac49b1522011979b3034966f
+2007-02-28T14:53:51.675124Z
+350
+Jurjen
+has-props
+
+de_allernieuweste_ziekenhuis_opdracht met gewijzigde roostertabel.mdb
+file
+
+
+
+
+2007-03-14T14:53:12.000000Z
+7fd05c35d9fc7ff420afaa5f449b5737
+2007-02-28T14:53:51.675124Z
+350
+Jurjen
+has-props
+
+patientenscherm.mdb
+file
+
+
+
+
+2007-03-08T08:39:43.000000Z
+978d03eaa3d02be6e02bbd2c339b1109
+2007-02-28T15:18:04.143874Z
+352
+Sander
+has-props
+
+Hospital Manager_2007-03-07.mdb
+file
+
+
+
+
+2007-03-15T13:56:59.000000Z
+17755f3eefecd9bb2192f065c5ebe101
+2007-03-15T13:53:16.143250Z
+581
+Nick
+has-props
+
+nieuw hoofdmenu.mdb
+file
+
+
+
+
+2007-03-14T14:33:16.000000Z
+53353b50d67a5b191ddc496e86639f1b
+2007-02-28T14:53:51.675124Z
+350
+Jurjen
+has-props
+
+Logo
+dir
+
+werknemersrooster.mdb
+file
+
+
+
+
+2007-03-08T08:39:44.000000Z
+2bc7149ed7783bd4143825b257cdbdfa
+2007-02-28T14:18:34.393874Z
+347
+Sander
+has-props
+
+vergelijk_hospital_manager.png
+file
+
+
+
+
+2007-03-08T08:39:44.000000Z
+5fe6a5bbe780c1ac7f6128b6fcb3251c
+2007-03-08T08:05:46.976625Z
+520
+Nick
+has-props
+
+ziekenhuis_opdracht met medicijnuitgifteformulier.mdb
+file
+
+
+
+
+2007-03-08T08:39:44.000000Z
+c1adce8ed83d48a2184eab5d94128258
+2007-02-28T15:26:52.112624Z
+354
+Nick
+has-props
+
+ontwerpbeslissingen.tex
+file
+
+
+
+
+2007-03-14T14:15:43.000000Z
+0dff4d31116a2310fe6670859ab1e61a
+2007-03-14T14:08:06.752625Z
+555
+Jurjen
+
+ziekenhuis_opdracht.mdb
+file
+
+
+
+
+2007-03-08T08:39:44.000000Z
+fb2bc3dfc48cf62b8071838389209d50
+2007-02-28T14:53:51.675124Z
+350
+Jurjen
+has-props
+
+logingegevens.pdf
+file
+
+
+
+
+2007-03-27T18:48:04.000000Z
+e48d0f39e4927e94b80dc5c1a909aa3a
+2007-03-15T16:11:51.408875Z
+618
+Nick
+has-props
+
+logingegevens.txt
+file
+
+
+
+
+2007-03-15T15:38:39.000000Z
+fdd01ad8905d57c2ea2eb25746816688
+2007-03-15T15:36:51.940125Z
+614
+Nick
+

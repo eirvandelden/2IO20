@@ -1,0 +1,146 @@
+%
+%  untitled
+%
+%  Created by Etienne van Delden on 2007-02-08.
+%  Copyright (c) 2007 __MyCompanyName__. All rights reserved.
+%
+
+\documentclass[]{article}
+
+% Use UTF-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for full page use
+\usepackage{fullpage}
+
+
+% More symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\title{Todo Access}
+\author{Etienne van Delden}
+
+\date{2007-02-08}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+
+\begin{enumerate}
+
+  \item \checkmark Overal: sluitknoppen!
+  \item \checkmark Is het mogelijk om nieuwe medicijnen toe te voegen?
+
+  \item Hoofdvenster
+    \begin{itemize}
+      \item \checkmark knoppen zijn te groot
+      \item \checkmark Knoppen hebben geen duidelijke namen
+      \item \checkmark Caption is geen serieuze naam
+      \item \checkmark Hoofd venster verdwijnt niet bij het selecteren van een menu (is dit een probleem?) (dit is geen probleem.)
+    \end{itemize}
+
+  \item Patientformulier
+    \begin{itemize}
+      \item \checkmark Nieuwe pati\"ent toevoegen moet makkelijker
+      (subform los laten openen bij klikken op knop 'nieuwe
+      patient')
+      \item \checkmark Burgerlijke staat: combobox! (mogelijkheden voor
+      databaseveld moeten comboboxwaarden toelaten (algemeen: alle
+      waarden dus)
+      \item \checkmark Geen nieuwe Patient knop, maar dat vage navigation dingetje ...
+      \item Navigation dingetje ``nieuw'' is niet meteen bruikbaar (dan kan je al een nieuwe patient invullen)
+      \item Nieuwe naam veld staat niet bovenaan het lijstje (??)
+      \item Formulier is te lang voor het venster (en nu is het te breed)
+      \item Telefoon nummer mag een ``-'' bevatten en de leading ``0'' wordt verwijdert. (het is nu een tekstveld ipv. nummer)
+      \item Geslacht is geen combobox
+      \item \checkmark Burgerlijke staat is geen combobox
+      \item geen standaardklachten
+      \item \checkmark Maak klacht hernoemen naar ``Maak nieuwe klacht aan''
+      \item Tab medicijnen:
+      \begin{itemize}
+        \item ``naam'' moet ``medicijn'' worden.
+        \item medicijnen op alfabetische volgorden sorteren
+        \item Caption sub\_form .. staat er nog
+      \end{itemize}
+      \item Afspraken subform: Resultaat box onderaan formulier en groter maken
+      \item Klacht subform: Patientveld weghalen: automatisch
+      invullen!
+      \item Rekening maken van een totale case (per maand)
+  \end{itemize}
+
+  \item Voorraadoverzicht:
+    \begin{itemize}
+      \item Formulier ontbreekt!
+    \end{itemize}
+
+  \item Werknemerformulier:
+    \begin{itemize}
+      \item combobox laat nog werknemer id zien.
+      \item Nul valt eraf bij telefoonnummer, veld is niet breed
+      genoeg.
+      \item labels moeten beginnen met hoofdletter
+      \item Contract sub formulier: label van salaris schaal is te groot
+    \end{itemize}
+
+  \item Gegevens toevoegen in database:
+    \begin{itemize}
+      \item \checkmark Soort behandeling (Eerste consult)
+      \item \checkmark Soort behandeling (Controle)
+      \item Opname (7 patienten die op KNO liggen waarvan er 3 op 8 mei 2007 en 4 op 10 mei 2007 worden ontslagen van de afdeling)
+      \item Patient + wachtlijst KNO: Jansen A, Janssen B, Janssens C, Vries D, Vriess E, Vriesch F, Vriessen G
+      \item Werknemer (Verpleegkundige A, 10 maal, afdeling KNO)
+      \item Werknemer (Verpleegkundige A, HETSE B, KNO)
+      \item Werknemer (Verpleegkundige A, SCHWEIZ A, KNO)
+      \item Werknemer (Verpleegkundige A, ANTONIUS T, KNO)
+      \item Werknemer (Verpleegkundige A, THEUNISSEN M, KNO)
+      \item Werknemer (Verpleegkundige A, DONALDS, M, INTERNE GENEESKUNDE)
+      \item Werknemer (Verpleegkundige A, KONING, B, INTERNE GENEESKUNDE)
+      \item Werknemer (Verpleegkundige A, SNEL, Q, PLUMONOLOGIE)
+      \item Werknemer (Hulppleegkundige, SOMER W, KNO)
+
+      \item Werknemer (Hulpkracht, 10 maal, afdeling KNO of niet gespecificeerde afdeling als dat technisch mogelijk is)
+      \item Werknemer (Hulpkracht, LOO J)
+      \item Werknemer (Hulpkracht, RIGAT F)
+      \item Soort afspraak (Controle)
+      \item Patient (Crocket, D)
+      \item Case (patient: Crocket, D; klacht: 'Ontstoken keelamandelen')
+      \item Opname (patient: Crocket, D; van: 28 april; tot: 4 mei
+      2007
+      \item Werknemer (Verpleegkundige, 'Kommes, C', afdeling KNO)
+      \item Werknemer (Verpleegkundige, 'Jansen, M', afdeling KNO)
+      \item Werkrooster ('Jansen, M', ingeroosterd op 08-05-2007, 16:00-0:00)
+      \item Werkrooster ('Jansen, M', ingeroosterd op 09-05-2007, 16:00-0:00)
+      \item Werkrooster ('Kommes, C', ingeroosterd op 11-05-2007, 0:00-8:00)
+      \item Werkrooster ('Kommes, C', ingeroosterd op 12-05-2007, 0:00-8:00)
+      \item Ruimte (OK3, afdeling KNO)
+      \item Soort afspraak ('Verwijderen buisjes')
+      \item Ruimte (3, afdeling KNO)
+      \item Werknemer ('MOL T', Diensthoofd afdeling Plumonologie)
+      \item Patient ('BOMMEL A VAN', 'Helmond')
+      \item Case ('Beknelde zenuw', 10-01-2007)
+      \item Medicijn ('Ibuprofen', 10-01-2007, 31 dagen)
+      \item Afspraak ('controle', 10-02-2007)
+      \item Afspraak ('eerste consult', 10-01-2007)
+    \end{itemize}
+
+  \item Use cases:
+    \begin{itemize}
+      \item Case 1: In orde
+      \item Case 2: Inroosteren personeel omschrijven
+      \item Case 3: In orde
+      \item Case 4: In orde
+      \item Case 5: In orde
+      \item Case 6: In orde
+      \item Case 7: In orde (formulier mist nog)
+      \item Case 8: In orde
+
+      \item Gegevens toevoegen aan database
+      \item Database klaarmaken voor gebruik op elk van de 8 Use Case startpunten
+      \item Demonstratietaken verdelen
+    \end{itemize}
+\end{enumerate}
+
+\end{document}

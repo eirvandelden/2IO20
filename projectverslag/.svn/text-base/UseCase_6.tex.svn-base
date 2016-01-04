@@ -1,0 +1,71 @@
+% Opdracht Template
+
+% Benodigdheden voor de case:
+
+Mijnheer Bommel uit Helmond is op 10 januari van 14:50 tot 15:25 op
+afspraak geweest bij neuroloog Akkermans. Hij had last van een
+beknelde zenuw en is daarvoor onderzocht in kamer 2.03. Hij is
+diezelfde dag nog een keer onderzocht door Akkermans, weer in kamer
+2.03. De resultaten van de
+onderzoeken worden in het dossier van mijnheer Bommel bewaard.\\
+Er worden een paar nieuwe afspraken gemaakt voor deze meneer, waarbij weer wordt
+opgeslagen door welke dokter hij is behandeld, hoelang en wanneer. Voor alle
+afspraken is tarief 2 in rekening gebracht. Alleen bij afspraak 2 zijn er
+materiaalkosten van \euro 75,-. Het onderzoek is uitgevoerd tegen tarief 3.
+Tarief 2 is \euro 50,- per uur, tarief 3 is \euro 75,- per uur.\\
+Op het eind van elke maand krijgt meneer van Bommel een rekening waarin de kosten
+van alle behandelingen van die maand verwerkt zijn.
+
+
+%\subsubsection*{Interacties met de database}
+%Afpsraak maken (doorgestuurd door huisarts maar dat maakt niet uit)
+%\begin{itemize}
+%
+   %\item Soort klacht (bij afspraak)
+   %\item welke kamer
+   %\item welke dokter
+%\end{itemize}
+   %Nog een afspraak maken (maakt niet uit dat het op dezelfde dag is).\\
+   %En nog een afspraak maken, maar dan op een andere dag.\\
+   %
+   %Ook moeten de kosten van materiaal en et tarief van een afspraak opgeslagen
+     %kunnen worden (niet bij het maken van de afspraak maar als de afspraak
+     %geweest is?)
+   %- Rekeningen kunnen maken.
+%
+
+% queries:
+\subsection*{Queries:}
+\begin{enumerate}
+
+\item Geef het rooster van de huidige dokter van de pati\"ent weer en
+momenten waar mogelijk een afspraak gemaakt kan worden.
+\item Geef de eerst mogelijk data voor het maken van een afspraak
+bij geen voorkeur van een dokter.
+\item Maak de afspraak aan in de rooster van de geselecteerd dokter.
+
+\item Geef welke kamers er beschikbaar zijn om een afspraak te kunnen
+maken.
+\item Maak de afspraak voor een bepaalde kamer.
+\item Geef de rekening: opzoeken hoeveel afspraken er zijn geweest in de afgelopen maand, hoeveel materiaal kosten er per afspraak waren en wat het tarief van de afspraak is geweest.
+% ect.
+\end{enumerate}
+
+\subsection*{Formulieren beschrijven:}
+\begin{enumerate}
+\item Er moet een formulier zijn waarmee (bij de receptie ?) een afspraak
+   gemaakt kan worden. Dit moet handig kunnen worden ingevuld door de
+   receptionistes. Het moet mogelijk zijn om de afdeling/dokter aan te klikken
+   en dan de beschikbare tijden te zien om een afspraak te kunnen maken wanneer
+   er tijd is bij die dokter of op die afdeling. En om dan een pati\"ent te
+   koppelen aan die tijd en zo een afspraak te maken.
+\item De dokter moet kunnen invoeren hoeveel materiaal er is gebruikt bij een
+   afspraak en wat voor soort afspraak het was geweest.
+\item De dokter moet ook kunnen invoeren wat het resultaat van de afspraak
+   was / bevindingen van onderzoek. (? hoort bij het vorige punt)
+\item Een formulier om aan het einde van de maand een rekeningen te kunnen maken
+   voor alle afspraken die er die maand zijn geweest (per persoon) en dan
+   eventueel ook alle nog niet betaalde afspraken. Per afspraak wordt gekeken
+   welke materialen er zijn gebruikt en wat voor soort afspraak het was geweest,
+   om aan de hand daarvan het standaard tarief te bepalen voor deze afspraak.
+\end{enumerate}

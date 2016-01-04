@@ -1,0 +1,20 @@
+\item Wachtlijst; De wachtlijst is de lijst waarop alle mensen die opgenomen willen
+worden maar nu nog niet (als er bijvoorbeeld geen plek is in het ziekenhuis,
+bijvoorbeeld).
+
+\item Opname; Alle mensen die ooit eens in het ziekenhuis op een bed hebben gelegen
+staan geregistreerd. Zowel met de begin-als einddatum van de opname in totaal, als
+met de begin- en einddatum van op welk specifiek bed ze hebben gelegen.
+
+\item Bed; Dit zijn alle bedden in het ziekenhuis met een specifiek nummer.
+
+\item Afdeling; Dit zijn alle afdelingen in het ziekenhuis.
+
+\item Werknemer; Dit zijn alle werknemers die in het ziekenhuis werken. Elke
+werknemer heeft een apart werkverleden en contract.
+
+\item Contract; Dit is het contract waarmee een werknemer is verbonden met het
+ziekenhuis.
+
+\item Rooster; Dit is het rooster, waar per dag en shift een aantal werknemers
+onder een bepaalde rol staan ingeroosterd.

@@ -1,0 +1,166 @@
+%
+%  Created by Etienne van Delden on 2007-01-11.
+%
+\documentclass[]{article}
+
+% Use utf-8 encoding for foreign characters
+\usepackage[utf8]{inputenc}
+
+% Setup for fullpage use
+\usepackage{fullpage}
+
+% Uncomment some of the following if you use the features
+%
+% Running Headers and footers
+%\usepackage{fancyheadings}
+
+% Multipart figures
+%\usepackage{subfigure}
+
+% More symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{latexsym}
+
+% Surround parts of graphics with box
+\usepackage{boxedminipage}
+
+% Package for including code in the document
+\usepackage{listings}
+
+% If you want to generate a toc for each chapter (use with book)
+\usepackage{minitoc}
+
+% This is now the recommended way for checking for PDFLaTeX:
+\usepackage{ifpdf}
+
+%\newif\ifpdf
+%\ifx\pdfoutput\undefined
+%\pdffalse % we are not running PDFLaTeX
+%\else
+%\pdfoutput=1 % we are running PDFLaTeX
+%\pdftrue
+%\fi
+
+\ifpdf
+\usepackage[pdftex]{graphicx}
+\else
+\usepackage{graphicx}
+\fi
+\title{Notulen - OGO 1.2, groep 2}
+\author{ Giso Dal \\ }
+
+\date{2007-02-08}
+
+\begin{document}
+
+\ifpdf
+\DeclareGraphicsExtensions{.pdf, .jpg, .tif}
+\else
+\DeclareGraphicsExtensions{.eps, .jpg}
+\fi
+
+\maketitle
+
+
+\section{Opening vergadering: 14.00 uur }
+  \begin{itemize}
+    \item Voorzitter: Veeken, N. van der
+    \item Notulist: Dal, G.H.
+    \item Afwezige leden: -
+  \end{itemize}
+
+\section{Agenda}
+  \begin{itemize}
+     \item Extra agendapunt bij de Opdracht: ``Verdelen van opdrachten, toegewezen aan Xander''
+     \item Database en werkende formulieren laten zien na de vergadering
+  \end{itemize}
+
+%\section{Bespreken van notulen vorige vergadering}
+
+%  \begin{itemize}
+%     \item Notulen van de vorige vergadering waren niet goed
+%  \end{itemize}
+
+\section{Mededelingen Voorzitter}
+Xander is officieel gestopt met zijn studie, dat wil zeggen dat hij
+niet meer zal deelnemen aan onze OGO groep en die taken die Xander
+zijn voorgeschreven zullen opnieuw moeten worden verdeeld.
+
+\section{Mededelingen Tutor}
+
+  \begin{itemize}
+     \item Met betrekking tot de access training moeten jurjen en
+     Giso het zo snel mogelijk verbeteren. Op de rest van de groep
+     was er geen commentaar.
+     \item Komdende week zal de vergadering van donderdag
+      naar woensdag verplaatst moeten worden, vanwege de verhuizing
+      van de OGO ruimte. De nieuwe ruimte zal zich bevinden in de
+      oude GEWIS ruimte in 8.79. De vergadering van komende woensdag
+      zal wel nog plaatsvinden in 8.58.
+      \item De tutor had een compliment over onze OGO groep,
+      aangezien we de enige groep waren die onze logboeken hadden
+      bijgewerkt en notulen hadden ingeleverd.
+      \item De tutor wou de database zien, maar aangezien we dit al
+      hadden afgesproken aan het begin van de vergadering was het
+      niet nodig om hieren woorden over vuil te maken.
+      \item volgende week is het tijd voor de oefendemonstratie. Deze
+      moet maandag worden ingeleverd op maandag bij de heer veldkamp
+      op papier. de definitieve proefdemonstratie moet voor vrijdag
+      12:00 worden ingeleverd.
+      \item voor de volgende OGO opdracht is het een suggestie om een
+      versie nummer toe te voegen aan het werkplan.
+  \end{itemize}
+
+\section{Mededelingen leden}
+Voorheen was de SVN server door Xander opgezet. Aangezien hij
+gestopt is moet iemand anders deze opzetten. Etienne steld zich
+beschikbaar. Het definitieve besluit over wie het wordt, wordt een
+andere keer afgesproken.
+
+\section{Opdracht}
+\begin{itemize}
+   \item Er is nog twijfel over het formulier van medicijn verbruik,
+   maar jurjen beweert dit al opgelost te hebben.
+   \item De tabel Order is veranderd in Uitgiften, om de
+   duidelijkheid van de naamgeving te verbeteren. Jurjen zal dit
+   moeten documenteren bij de documentatie van het ER-model.
+   \item Xanders formulier wordt nu gedaan door Giso.
+   \item de proefverslagen deadline worden door Nick toegevoegd aan
+   het werkplan.
+   \item Nick zal de taak als hoofdverantwoordelijke voor de
+   oefendemonstratie overnemen van Xander.
+\end{itemize}
+
+\section{Verslaglegging}
+
+\begin{itemize}
+   \item Sander moet nog beginnen aan zij taak als
+   verantwoordelijke voor "Bespreking van de vergaderingen en de gevolgen hiervan op het ontwerp en de realisatie van het
+   eindproduct"
+   \item Giso zal kijken wat er aan het product document moet worden
+   toegevoegd.
+\end{itemize}
+
+\section{Planning}
+
+\begin{itemize}
+   \item er is onduidelijkheid over de weekindeling, maar er is nu
+   besloten om de weekindeling volgens de OGO-vergaderingen in te
+   delen. Dat wil zeggen dat we ons nu te bevinden in week 6.
+   \item op 14 februari is er een studenten overleg waar etienne
+   naar toe zal gaan. Sander wil dat daar de accesstraining en de
+   bedoeling van de demonstratie worden besproken.
+   \item op de 10e vergadering zal de eindpresentatie plaatsvinden.
+\end{itemize}
+
+\section{Sluiting}
+  \begin{itemize}
+    \item De vergadering werd gesloten om 14.43
+    \item De volgende vergadering is op woensdag 14 feb om 14:30 in
+    8.58
+  \end{itemize}
+
+$\boxtimes$
+
+\end{document}
